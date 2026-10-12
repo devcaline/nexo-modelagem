@@ -17,8 +17,10 @@ nexo-modelagem-av3/
     ├── contexto/                            # fronteira do sistema e atores externos
     ├── casos-de-uso/                        # um diagrama por módulo (01 a 10)
     │   └── diagramas-casos-de-uso.drawio    # arquivo editável com os 10 diagramas
-    └── classes/                             # um diagrama de classes por área (01 a 09)
-        └── diagramas-classes.drawio         # arquivo editável com os 9 diagramas
+    ├── classes/                             # um diagrama de classes por área (01 a 09)
+    │   └── diagramas-classes.drawio         # arquivo editável com os 9 diagramas
+    └── objetos/                             # instâncias de um cenário (UC-027)
+        └── diagrama-objetos.drawio          # arquivo editável
 ```
 
 Os diagramas ficam exportados em `.png` para leitura rápida. Cada pasta tem um arquivo `.drawio` editável com todos os diagramas daquele tipo, um por página, na mesma ordem das tabelas abaixo.
@@ -63,6 +65,14 @@ O modelo de domínio está dividido em 9 áreas. Em cada diagrama, os atributos 
 | 08 | Documentos e Compartilhamentos | Documento, Compartilhamento, Destinatário, Registro de Acesso | [ver](diagramas/classes/08-documentos-e-compartilhamentos.png) | [abrir](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=diagramas-classes.drawio&page-id=area-8#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem-av3%2Fmain%2Fdiagramas%2Fclasses%2Fdiagramas-classes.drawio>) |
 | 09 | Comunicação e Auditoria | Notificação, Registro de Auditoria | [ver](diagramas/classes/09-comunicacao-e-auditoria.png) | [abrir](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=diagramas-classes.drawio&page-id=area-9#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem-av3%2Fmain%2Fdiagramas%2Fclasses%2Fdiagramas-classes.drawio>) |
 
+## 🔎 Diagrama de objetos
+
+Mostra as instâncias e os vínculos no instante em que uma consulta é agendada, no cenário do **UC-027 — Agendar consulta**: a paciente Mariana marca uma consulta com a psicóloga Ana, dentro de um horário de disponibilidade cadastrado por ela.
+
+| Cenário | Objetos | Imagem | Arquivo editável |
+|---------|---------|:------:|:----------------:|
+| UC-027 — Agendar consulta | `ana:Psicólogo`, `mariana:Paciente`, `consulta001:Agendamento`, `disponibilidade001:Disponibilidade` | [ver](diagramas/objetos/uc027-agendar-consulta.png) | [abrir](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=diagrama-objetos.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem-av3%2Fmain%2Fdiagramas%2Fobjetos%2Fdiagrama-objetos.drawio>) |
+
 ## ✏️ Arquivos editáveis dos diagramas
 
 Os arquivos-fonte dos diagramas podem ser abertos no navegador, sem instalar nada e sem precisar de conta:
@@ -75,6 +85,7 @@ As páginas ficam na barra inferior e seguem a ordem das tabelas acima. Os arqui
 
 - [`diagramas/casos-de-uso/diagramas-casos-de-uso.drawio`](diagramas/casos-de-uso/diagramas-casos-de-uso.drawio)
 - [`diagramas/classes/diagramas-classes.drawio`](diagramas/classes/diagramas-classes.drawio)
+- [`diagramas/objetos/diagrama-objetos.drawio`](diagramas/objetos/diagrama-objetos.drawio)
 
 ## ✅ Andamento dos artefatos
 
@@ -87,7 +98,7 @@ As páginas ficam na barra inferior e seguem a ordem das tabelas acima. Os arqui
 | Requisitos funcionais, não funcionais e regras de negócio | ✅ |
 | Histórias de usuário e critérios de aceite | ✅ |
 | Diagrama de classes de domínio | ✅ |
-| Diagrama de objetos | ⏳ |
+| Diagrama de objetos | ✅ |
 | Diagramas de sequência (3 casos críticos) | ⏳ |
 | Diagrama de comunicação | ⏳ |
 | Diagrama de atividades | ⏳ |
