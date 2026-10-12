@@ -11,13 +11,22 @@ Este repositório guarda o **Dossiê de Modelagem Orientada a Objetos** do siste
 ```text
 nexo-modelagem-av3/
 ├── docs/
-│   └── especificacao-casos-de-uso.docx   # UC-001 a UC-049, com fluxos e regras
+│   ├── 01-visao-requisitos-e-regras.docx    # visão, escopo, atores, RF, RNF, RN, histórias e critérios de aceite
+│   └── 02-especificacao-casos-de-uso.docx   # UC-001 a UC-049, com diagramas, fluxos e regras
 └── diagramas/
-    ├── contexto/                          # fronteira do sistema e atores externos
-    └── casos-de-uso/                      # um diagrama por módulo (01 a 10)
+    ├── contexto/                            # fronteira do sistema e atores externos
+    └── casos-de-uso/                        # um diagrama por módulo (01 a 10)
+        └── diagramas-casos-de-uso.drawio    # arquivo editável com os 10 diagramas
 ```
 
-Cada diagrama fica com a imagem exportada (`.png`) e o arquivo editável (`.drawio`) lado a lado, com o mesmo nome.
+Os diagramas ficam exportados em `.png` para leitura rápida. O arquivo editável `diagramas-casos-de-uso.drawio` reúne os 10 diagramas de casos de uso, um por página, na mesma ordem da tabela de módulos (Página-1 = módulo 01, e assim por diante).
+
+## 📄 Documentos
+
+| Documento | Conteúdo |
+|-----------|----------|
+| [Visão, requisitos e regras](docs/01-visao-requisitos-e-regras.docx) | Documento de visão, situação-problema, objetivos, escopo e fronteiras, premissas, stakeholders e atores, glossário, inovação proposta, **75 requisitos funcionais (RF)**, **17 não funcionais (RNF)**, **79 regras de negócio (RN)**, histórias de usuário e critérios de aceite |
+| [Especificação dos casos de uso](docs/02-especificacao-casos-de-uso.docx) | Padrões de identificação, diagramas por módulo e especificação textual de **49 casos de uso** (UC-001 a UC-049) |
 
 ## 🧩 Módulos
 
@@ -43,8 +52,9 @@ Os 49 casos de uso estão divididos em 10 módulos. Cada um tem um diagrama pró
 | Diagrama de contexto | ✅ |
 | Diagramas de casos de uso | ✅ |
 | Especificação dos casos de uso | ✅ |
-| Documento de visão, glossário e mapa de stakeholders | ⏳ |
-| Requisitos funcionais, não funcionais e regras de negócio | ⏳ |
+| Documento de visão, glossário e mapa de stakeholders | ✅ |
+| Requisitos funcionais, não funcionais e regras de negócio | ✅ |
+| Histórias de usuário e critérios de aceite | ✅ |
 | Diagrama de classes de domínio | ⏳ |
 | Diagrama de objetos | ⏳ |
 | Diagramas de sequência (3 casos críticos) | ⏳ |
