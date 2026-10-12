@@ -32,18 +32,26 @@ Os diagramas ficam exportados em `.png` para leitura rápida. O arquivo editáve
 
 Os 49 casos de uso estão divididos em 10 módulos. Cada um tem um diagrama próprio:
 
-| # | Módulo | Diagrama |
-|:-:|--------|----------|
-| 01 | Acesso e Autenticação | [ver](diagramas/casos-de-uso/01-acesso-e-autenticacao.png) |
-| 02 | Administração e Permissões | [ver](diagramas/casos-de-uso/02-administracao-e-permissoes.png) |
-| 03 | Pacientes e Responsáveis | [ver](diagramas/casos-de-uso/03-pacientes-e-responsaveis.png) |
-| 04 | Psicólogos e Disponibilidade | [ver](diagramas/casos-de-uso/04-psicologos-e-disponibilidade.png) |
-| 05 | Agenda e Agendamentos | [ver](diagramas/casos-de-uso/05-agenda-e-agendamentos.png) |
-| 06 | Atendimento e Evolução Clínica | [ver](diagramas/casos-de-uso/06-atendimento-e-evolucao-clinica.png) |
-| 07 | Recorrência de Atendimentos | [ver](diagramas/casos-de-uso/07-recorrencia-de-atendimentos.png) |
-| 08 | Financeiro e Pagamentos | [ver](diagramas/casos-de-uso/08-financeiro-e-pagamentos.png) |
-| 09 | Lista de Espera e Encaixes | [ver](diagramas/casos-de-uso/09-lista-de-espera-e-encaixes.png) |
-| 10 | Compartilhamento de Documentos | [ver](diagramas/casos-de-uso/10-compartilhamento-de-documentos.png) |
+| # | Módulo | Imagem | Arquivo editável |
+|:-:|--------|:------:|:----------------:|
+| 01 | Acesso e Autenticação | [ver](diagramas/casos-de-uso/01-acesso-e-autenticacao.png) | [abrir](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=diagramas-casos-de-uso.drawio&page-id=TTQjXH0QLTnTZkFuTSbk#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem-av3%2Fmain%2Fdiagramas%2Fcasos-de-uso%2Fdiagramas-casos-de-uso.drawio>) |
+| 02 | Administração e Permissões | [ver](diagramas/casos-de-uso/02-administracao-e-permissoes.png) | [abrir](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=diagramas-casos-de-uso.drawio&page-id=jioY7CT-6xVF0ysiqzDF#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem-av3%2Fmain%2Fdiagramas%2Fcasos-de-uso%2Fdiagramas-casos-de-uso.drawio>) |
+| 03 | Pacientes e Responsáveis | [ver](diagramas/casos-de-uso/03-pacientes-e-responsaveis.png) | [abrir](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=diagramas-casos-de-uso.drawio&page-id=INRhjBrrQ6mlNPOlhrBA#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem-av3%2Fmain%2Fdiagramas%2Fcasos-de-uso%2Fdiagramas-casos-de-uso.drawio>) |
+| 04 | Psicólogos e Disponibilidade | [ver](diagramas/casos-de-uso/04-psicologos-e-disponibilidade.png) | [abrir](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=diagramas-casos-de-uso.drawio&page-id=Ee0_wjZGZucqGsAhjyQ-#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem-av3%2Fmain%2Fdiagramas%2Fcasos-de-uso%2Fdiagramas-casos-de-uso.drawio>) |
+| 05 | Agenda e Agendamentos | [ver](diagramas/casos-de-uso/05-agenda-e-agendamentos.png) | [abrir](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=diagramas-casos-de-uso.drawio&page-id=ErttRgM506p2Fu00RCfi#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem-av3%2Fmain%2Fdiagramas%2Fcasos-de-uso%2Fdiagramas-casos-de-uso.drawio>) |
+| 06 | Atendimento e Evolução Clínica | [ver](diagramas/casos-de-uso/06-atendimento-e-evolucao-clinica.png) | [abrir](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=diagramas-casos-de-uso.drawio&page-id=AC23WXYMVOHcswpK5mRS#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem-av3%2Fmain%2Fdiagramas%2Fcasos-de-uso%2Fdiagramas-casos-de-uso.drawio>) |
+| 07 | Recorrência de Atendimentos | [ver](diagramas/casos-de-uso/07-recorrencia-de-atendimentos.png) | [abrir](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=diagramas-casos-de-uso.drawio&page-id=j8ZUGrdPdTnJEIPtGFZn#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem-av3%2Fmain%2Fdiagramas%2Fcasos-de-uso%2Fdiagramas-casos-de-uso.drawio>) |
+| 08 | Financeiro e Pagamentos | [ver](diagramas/casos-de-uso/08-financeiro-e-pagamentos.png) | [abrir](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=diagramas-casos-de-uso.drawio&page-id=7p_f6k52_ZvSWfSv3xck#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem-av3%2Fmain%2Fdiagramas%2Fcasos-de-uso%2Fdiagramas-casos-de-uso.drawio>) |
+| 09 | Lista de Espera e Encaixes | [ver](diagramas/casos-de-uso/09-lista-de-espera-e-encaixes.png) | [abrir](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=diagramas-casos-de-uso.drawio&page-id=WWKL9XNSHv-sA6mnodhM#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem-av3%2Fmain%2Fdiagramas%2Fcasos-de-uso%2Fdiagramas-casos-de-uso.drawio>) |
+| 10 | Compartilhamento de Documentos | [ver](diagramas/casos-de-uso/10-compartilhamento-de-documentos.png) | [abrir](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=diagramas-casos-de-uso.drawio&page-id=msohQ2KOXuRciw_aY0eF#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem-av3%2Fmain%2Fdiagramas%2Fcasos-de-uso%2Fdiagramas-casos-de-uso.drawio>) |
+
+## ✏️ Arquivo editável dos diagramas
+
+O arquivo-fonte dos diagramas de casos de uso pode ser aberto no navegador, sem instalar nada e sem precisar de conta:
+
+**[🔗 Abrir os 10 diagramas no draw.io (somente visualização)](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=diagramas-casos-de-uso.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem-av3%2Fmain%2Fdiagramas%2Fcasos-de-uso%2Fdiagramas-casos-de-uso.drawio>)**
+
+As páginas ficam na barra inferior (Página-1 a Página-10) e seguem a ordem da tabela de módulos acima. O arquivo também pode ser baixado em [`diagramas/casos-de-uso/diagramas-casos-de-uso.drawio`](diagramas/casos-de-uso/diagramas-casos-de-uso.drawio).
 
 ## ✅ Andamento dos artefatos
 
