@@ -15,11 +15,13 @@ nexo-modelagem-av3/
 │   └── 02-especificacao-casos-de-uso.docx   # UC-001 a UC-049, com diagramas, fluxos e regras
 └── diagramas/
     ├── contexto/                            # fronteira do sistema e atores externos
-    └── casos-de-uso/                        # um diagrama por módulo (01 a 10)
-        └── diagramas-casos-de-uso.drawio    # arquivo editável com os 10 diagramas
+    ├── casos-de-uso/                        # um diagrama por módulo (01 a 10)
+    │   └── diagramas-casos-de-uso.drawio    # arquivo editável com os 10 diagramas
+    └── classes/                             # um diagrama de classes por área (01 a 09)
+        └── diagramas-classes.drawio         # arquivo editável com os 9 diagramas
 ```
 
-Os diagramas ficam exportados em `.png` para leitura rápida. O arquivo editável `diagramas-casos-de-uso.drawio` reúne os 10 diagramas de casos de uso, um por página, na mesma ordem da tabela de módulos (Página-1 = módulo 01, e assim por diante).
+Os diagramas ficam exportados em `.png` para leitura rápida. Cada pasta tem um arquivo `.drawio` editável com todos os diagramas daquele tipo, um por página, na mesma ordem das tabelas abaixo.
 
 ## 📄 Documentos
 
@@ -45,13 +47,34 @@ Os 49 casos de uso estão divididos em 10 módulos. Cada um tem um diagrama pró
 | 09 | Lista de Espera e Encaixes | [ver](diagramas/casos-de-uso/09-lista-de-espera-e-encaixes.png) | [abrir](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=diagramas-casos-de-uso.drawio&page-id=WWKL9XNSHv-sA6mnodhM#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem-av3%2Fmain%2Fdiagramas%2Fcasos-de-uso%2Fdiagramas-casos-de-uso.drawio>) |
 | 10 | Compartilhamento de Documentos | [ver](diagramas/casos-de-uso/10-compartilhamento-de-documentos.png) | [abrir](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=diagramas-casos-de-uso.drawio&page-id=msohQ2KOXuRciw_aY0eF#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem-av3%2Fmain%2Fdiagramas%2Fcasos-de-uso%2Fdiagramas-casos-de-uso.drawio>) |
 
-## ✏️ Arquivo editável dos diagramas
+## 🧱 Diagramas de classes
 
-O arquivo-fonte dos diagramas de casos de uso pode ser aberto no navegador, sem instalar nada e sem precisar de conta:
+O modelo de domínio está dividido em 9 áreas. Em cada diagrama, os atributos são privados (`-`) e as operações públicas (`+`). As classes de outras áreas aparecem como referência, marcadas com «referência à mesma classe».
 
-**[🔗 Abrir os 10 diagramas no draw.io (somente visualização)](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=diagramas-casos-de-uso.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem-av3%2Fmain%2Fdiagramas%2Fcasos-de-uso%2Fdiagramas-casos-de-uso.drawio>)**
+| # | Área | Classes principais | Imagem | Arquivo editável |
+|:-:|------|--------------------|:------:|:----------------:|
+| 01 | Acesso e Permissões | Usuário, Perfil de Acesso, Permissão | [ver](diagramas/classes/01-acesso-e-permissoes.png) | [abrir](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=diagramas-classes.drawio&page-id=area-1#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem-av3%2Fmain%2Fdiagramas%2Fclasses%2Fdiagramas-classes.drawio>) |
+| 02 | Pessoas e Vínculos | Paciente, Psicólogo, Vínculo de Responsabilidade | [ver](diagramas/classes/02-pessoas-e-vinculos.png) | [abrir](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=diagramas-classes.drawio&page-id=area-2#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem-av3%2Fmain%2Fdiagramas%2Fclasses%2Fdiagramas-classes.drawio>) |
+| 03 | Agenda e Agendamentos | Disponibilidade, Bloqueio de Agenda, Agendamento | [ver](diagramas/classes/03-agenda-e-agendamentos.png) | [abrir](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=diagramas-classes.drawio&page-id=area-3#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem-av3%2Fmain%2Fdiagramas%2Fclasses%2Fdiagramas-classes.drawio>) |
+| 04 | Atendimento e Evolução Clínica | Atendimento, Evolução Clínica | [ver](diagramas/classes/04-atendimento-e-evolucao-clinica.png) | [abrir](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=diagramas-classes.drawio&page-id=area-4#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem-av3%2Fmain%2Fdiagramas%2Fclasses%2Fdiagramas-classes.drawio>) |
+| 05 | Recorrência | Recorrência | [ver](diagramas/classes/05-recorrencia.png) | [abrir](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=diagramas-classes.drawio&page-id=area-5#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem-av3%2Fmain%2Fdiagramas%2Fclasses%2Fdiagramas-classes.drawio>) |
+| 06 | Cobranças e Pagamentos | Cobrança, Tentativa de Pagamento, Pagamento | [ver](diagramas/classes/06-cobrancas-e-pagamentos.png) | [abrir](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=diagramas-classes.drawio&page-id=area-6#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem-av3%2Fmain%2Fdiagramas%2Fclasses%2Fdiagramas-classes.drawio>) |
+| 07 | Lista de Espera e Encaixes | Lista de Espera, Inscrição na Lista de Espera, Oferta de Encaixe | [ver](diagramas/classes/07-lista-de-espera-e-encaixes.png) | [abrir](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=diagramas-classes.drawio&page-id=area-7#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem-av3%2Fmain%2Fdiagramas%2Fclasses%2Fdiagramas-classes.drawio>) |
+| 08 | Documentos e Compartilhamentos | Documento, Compartilhamento, Destinatário, Registro de Acesso | [ver](diagramas/classes/08-documentos-e-compartilhamentos.png) | [abrir](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=diagramas-classes.drawio&page-id=area-8#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem-av3%2Fmain%2Fdiagramas%2Fclasses%2Fdiagramas-classes.drawio>) |
+| 09 | Comunicação e Auditoria | Notificação, Registro de Auditoria | [ver](diagramas/classes/09-comunicacao-e-auditoria.png) | [abrir](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=diagramas-classes.drawio&page-id=area-9#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem-av3%2Fmain%2Fdiagramas%2Fclasses%2Fdiagramas-classes.drawio>) |
 
-As páginas ficam na barra inferior (Página-1 a Página-10) e seguem a ordem da tabela de módulos acima. O arquivo também pode ser baixado em [`diagramas/casos-de-uso/diagramas-casos-de-uso.drawio`](diagramas/casos-de-uso/diagramas-casos-de-uso.drawio).
+## ✏️ Arquivos editáveis dos diagramas
+
+Os arquivos-fonte dos diagramas podem ser abertos no navegador, sem instalar nada e sem precisar de conta:
+
+**[🔗 Abrir os 10 diagramas de casos de uso no draw.io (somente visualização)](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=diagramas-casos-de-uso.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem-av3%2Fmain%2Fdiagramas%2Fcasos-de-uso%2Fdiagramas-casos-de-uso.drawio>)**
+
+**[🔗 Abrir os 9 diagramas de classes no draw.io (somente visualização)](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=diagramas-classes.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem-av3%2Fmain%2Fdiagramas%2Fclasses%2Fdiagramas-classes.drawio>)**
+
+As páginas ficam na barra inferior e seguem a ordem das tabelas acima. Os arquivos também podem ser baixados:
+
+- [`diagramas/casos-de-uso/diagramas-casos-de-uso.drawio`](diagramas/casos-de-uso/diagramas-casos-de-uso.drawio)
+- [`diagramas/classes/diagramas-classes.drawio`](diagramas/classes/diagramas-classes.drawio)
 
 ## ✅ Andamento dos artefatos
 
@@ -63,7 +86,7 @@ As páginas ficam na barra inferior (Página-1 a Página-10) e seguem a ordem da
 | Documento de visão, glossário e mapa de stakeholders | ✅ |
 | Requisitos funcionais, não funcionais e regras de negócio | ✅ |
 | Histórias de usuário e critérios de aceite | ✅ |
-| Diagrama de classes de domínio | ⏳ |
+| Diagrama de classes de domínio | ✅ |
 | Diagrama de objetos | ⏳ |
 | Diagramas de sequência (3 casos críticos) | ⏳ |
 | Diagrama de comunicação | ⏳ |
