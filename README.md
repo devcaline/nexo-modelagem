@@ -1,10 +1,10 @@
-# 🧠 Nexo — Modelagem Orientada a Objetos
+# 🧠 Nexo — Análise Orientada a Objetos
 
 **Nexo** é uma plataforma de gestão de serviços psicológicos para profissionais de diferentes áreas da Psicologia (clínica, organizacional, escolar, hospitalar, jurídica e outras). Ela reúne cadastros, permissões, agenda, atendimentos, financeiro e documentos num só lugar, com controle de acesso, auditoria e respeito à LGPD e ao sigilo profissional.
 
 Este repositório guarda o **Dossiê de Modelagem Orientada a Objetos** do sistema: requisitos, diagramas UML, persistência e rastreabilidade. O objetivo é que outra equipe consiga entender e implementar a plataforma só a partir destes artefatos.
 
-> Trabalho da **Avaliação 3 (AV3)** da disciplina de **Modelagem Orientada a Objetos** — Ciência da Computação, UNIJORGE.
+> Trabalho da **Avaliação 3 (AV3)** da disciplina de **Análise Orientada a Objetos** — Ciência da Computação, UNIJORGE.
 
 ## 📂 Estrutura
 
