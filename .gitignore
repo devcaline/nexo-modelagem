@@ -1,0 +1,5 @@
+.DS_Store
+# Arquivos temporários do Word e do draw.io
+~$*
+*.bkp
+*.drawio.dtmp
