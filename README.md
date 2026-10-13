@@ -12,7 +12,8 @@ Este repositório guarda o **Dossiê de Modelagem Orientada a Objetos** do siste
 nexo-modelagem-av3/
 ├── docs/
 │   ├── 01-visao-requisitos-e-regras.docx    # visão, escopo, atores, RF, RNF, RN, histórias e critérios de aceite
-│   └── 02-especificacao-casos-de-uso.docx   # UC-001 a UC-049, com diagramas, fluxos e regras
+│   ├── 02-especificacao-casos-de-uso.docx   # UC-001 a UC-049, com diagramas, fluxos e regras
+│   └── 03-modelagem-de-dominio-e-orientacao-a-objetos.pdf   # conceitos, responsabilidades, classes, objetos, OO e SOLID
 └── diagramas/
     ├── contexto/                            # fronteira do sistema e atores externos
     ├── casos-de-uso/                        # um diagrama por módulo (01 a 10)
@@ -31,6 +32,7 @@ Os diagramas ficam exportados em `.png` para leitura rápida. Cada pasta tem um 
 |-----------|----------|
 | [Visão, requisitos e regras](docs/01-visao-requisitos-e-regras.docx) | Documento de visão, situação-problema, objetivos, escopo e fronteiras, premissas, stakeholders e atores, glossário, inovação proposta, **75 requisitos funcionais (RF)**, **17 não funcionais (RNF)**, **79 regras de negócio (RN)**, histórias de usuário e critérios de aceite |
 | [Especificação dos casos de uso](docs/02-especificacao-casos-de-uso.docx) | Padrões de identificação, diagramas por módulo e especificação textual de **49 casos de uso** (UC-001 a UC-049) |
+| [Modelagem de domínio e orientação a objetos](docs/03-modelagem-de-dominio-e-orientacao-a-objetos.pdf) | **24 conceitos do domínio** com origem nos casos de uso, quadro de responsabilidades e colaborações das classes, explicação dos diagramas de classes e de objetos, aplicação dos princípios de OO (abstração, encapsulamento, coesão, acoplamento, herança, polimorfismo e composição) e dos princípios **SOLID** |
 
 ## 🧩 Módulos
 
@@ -97,8 +99,10 @@ As páginas ficam na barra inferior e seguem a ordem das tabelas acima. Os arqui
 | Documento de visão, glossário e mapa de stakeholders | ✅ |
 | Requisitos funcionais, não funcionais e regras de negócio | ✅ |
 | Histórias de usuário e critérios de aceite | ✅ |
+| Conceitos do domínio e responsabilidades das classes | ✅ |
 | Diagrama de classes de domínio | ✅ |
 | Diagrama de objetos | ✅ |
+| Princípios de OO e SOLID | ✅ |
 | Diagramas de sequência (3 casos críticos) | ⏳ |
 | Diagrama de comunicação | ⏳ |
 | Diagrama de atividades | ⏳ |
