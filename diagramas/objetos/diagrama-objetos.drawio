@@ -64,7 +64,7 @@
         <mxCell id="v20" parent="v14" style="text;html=0;align=left;fontFamily=Arial;fontSize=20;spacing=0;verticalAlign=top;" value="fim = 2026-10-15 15:00" vertex="1">
           <mxGeometry height="30" width="484" x="18" y="142" as="geometry" />
         </mxCell>
-        <mxCell id="v21" parent="v14" style="text;html=0;align=left;fontFamily=Arial;fontSize=20;spacing=0;verticalAlign=top;" value="situação = &quot;Agendada&quot;" vertex="1">
+        <mxCell id="v21" parent="v14" style="text;html=0;align=left;fontFamily=Arial;fontSize=20;spacing=0;verticalAlign=top;" value="situação = Agendada" vertex="1">
           <mxGeometry height="30" width="484" x="18" y="178" as="geometry" />
         </mxCell>
         <mxCell id="v22" parent="1" style="rounded=0;fillColor=#FFFFFF;strokeColor=#7D8FA1;strokeWidth=1.1;" value="" vertex="1">
