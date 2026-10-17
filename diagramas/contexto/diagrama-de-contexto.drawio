@@ -1,150 +1,150 @@
 <mxfile host="app.diagrams.net">
-  <diagram name="Diagrama de Contexto" id="F_Tktwikr4qeMTKqPCfj">
-    <mxGraphModel dx="1675" dy="2083" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram name="Diagrama de Contexto" id="91jGH96p6e6vRsx4CoOB">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Uie5on7mD__ppeKLT5dT-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#1F2D3D;fontSize=26;fontStyle=1;" value="Diagrama de Contexto – Nexo" vertex="1">
+        <mxCell id="F_-E-uBlT32sebtiUWOK-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#1F2D3D;fontSize=26;fontStyle=1;" value="Diagrama de Contexto – Nexo" vertex="1">
           <mxGeometry height="40" width="600" x="700" y="140" as="geometry" />
         </mxCell>
-        <mxCell id="Uie5on7mD__ppeKLT5dT-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#1F2D3D;fontSize=14;fontColor=#5A6A7A;" value="Retângulo = pessoa externa (ator) • retângulo cinza = sistema externo • seta = sentido da informação" vertex="1">
+        <mxCell id="F_-E-uBlT32sebtiUWOK-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#1F2D3D;fontSize=14;fontColor=#5A6A7A;" value="Retângulo = pessoa externa (ator) • retângulo cinza = sistema externo • seta = sentido da informação" vertex="1">
           <mxGeometry height="24" width="900" x="550" y="182" as="geometry" />
         </mxCell>
-        <mxCell id="Uie5on7mD__ppeKLT5dT-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;dashPattern=8 8;strokeWidth=2;strokeColor=#1F2D3D;fillColor=#FFFFFF;" value="" vertex="1">
+        <mxCell id="F_-E-uBlT32sebtiUWOK-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;dashPattern=8 8;strokeWidth=2;strokeColor=#1F2D3D;fillColor=#FFFFFF;" value="" vertex="1">
           <mxGeometry height="260" width="260" x="870" y="690" as="geometry" />
         </mxCell>
-        <mxCell id="Uie5on7mD__ppeKLT5dT-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontStyle=1;fontSize=16;strokeColor=#1F2D3D;fillColor=#EAF1F7;fontColor=#1F2D3D;" value="NEXO" vertex="1">
+        <mxCell id="F_-E-uBlT32sebtiUWOK-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontStyle=1;fontSize=16;strokeColor=#1F2D3D;fillColor=#EAF1F7;fontColor=#1F2D3D;" value="NEXO" vertex="1">
           <mxGeometry height="90" width="90" x="955" y="750" as="geometry" />
         </mxCell>
-        <mxCell id="Uie5on7mD__ppeKLT5dT-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#1F2D3D;fontSize=13;" value="Plataforma de Gestão de Serviços Psicológicos" vertex="1">
+        <mxCell id="F_-E-uBlT32sebtiUWOK-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#1F2D3D;fontSize=13;" value="Plataforma de Gestão de Serviços Psicológicos" vertex="1">
           <mxGeometry height="40" width="190" x="905" y="848" as="geometry" />
         </mxCell>
-        <mxCell id="Uie5on7mD__ppeKLT5dT-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;strokeColor=#1F2D3D;fillColor=#FFFFFF;fontColor=#1F2D3D;" value="Administrador" vertex="1">
+        <mxCell id="F_-E-uBlT32sebtiUWOK-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;strokeColor=#1F2D3D;fillColor=#FFFFFF;fontColor=#1F2D3D;" value="Administrador" vertex="1">
           <mxGeometry height="64" width="170" x="915" y="288" as="geometry" />
         </mxCell>
-        <mxCell id="Uie5on7mD__ppeKLT5dT-7" edge="1" parent="1" source="Uie5on7mD__ppeKLT5dT-6" style="html=1;rounded=0;edgeStyle=none;strokeColor=#1F2D3D;strokeWidth=1.5;endSize=10;startSize=10;exitX=0.394;exitY=1.000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.431;entryY=0.000;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classic;endFill=1;startArrow=none;labelBackgroundColor=#FFFFFF;fontSize=13;fontColor=#1F2D3D;" target="Uie5on7mD__ppeKLT5dT-3" value="Gestão administrativa">
+        <mxCell id="F_-E-uBlT32sebtiUWOK-7" edge="1" parent="1" source="F_-E-uBlT32sebtiUWOK-6" style="html=1;rounded=0;edgeStyle=none;strokeColor=#1F2D3D;strokeWidth=1.5;endSize=10;startSize=10;exitX=0.394;exitY=1.000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.431;entryY=0.000;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classic;endFill=1;startArrow=none;labelBackgroundColor=#FFFFFF;fontSize=13;fontColor=#1F2D3D;" target="F_-E-uBlT32sebtiUWOK-3" value="Gestão administrativa">
           <mxGeometry relative="1" x="-0.5" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Uie5on7mD__ppeKLT5dT-8" edge="1" parent="1" source="Uie5on7mD__ppeKLT5dT-6" style="html=1;rounded=0;edgeStyle=none;strokeColor=#1F2D3D;strokeWidth=1.5;endSize=10;startSize=10;exitX=0.606;exitY=1.000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.569;entryY=0.000;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;startArrow=classic;startFill=1;labelBackgroundColor=#FFFFFF;fontSize=13;fontColor=#1F2D3D;" target="Uie5on7mD__ppeKLT5dT-3" value="Dados e relatórios">
+        <mxCell id="F_-E-uBlT32sebtiUWOK-8" edge="1" parent="1" source="F_-E-uBlT32sebtiUWOK-6" style="html=1;rounded=0;edgeStyle=none;strokeColor=#1F2D3D;strokeWidth=1.5;endSize=10;startSize=10;exitX=0.606;exitY=1.000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.569;entryY=0.000;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;startArrow=classic;startFill=1;labelBackgroundColor=#FFFFFF;fontSize=13;fontColor=#1F2D3D;" target="F_-E-uBlT32sebtiUWOK-3" value="Dados e relatórios">
           <mxGeometry relative="1" x="-0.05" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Uie5on7mD__ppeKLT5dT-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;strokeColor=#1F2D3D;fillColor=#F1F3F5;fontColor=#1F2D3D;" value="Serviço Externo de Autenticação" vertex="1">
+        <mxCell id="F_-E-uBlT32sebtiUWOK-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;strokeColor=#1F2D3D;fillColor=#F1F3F5;fontColor=#1F2D3D;" value="Serviço Externo de Autenticação" vertex="1">
           <mxGeometry height="64" width="170" x="1326.4" y="383.5" as="geometry" />
         </mxCell>
-        <mxCell id="Uie5on7mD__ppeKLT5dT-10" edge="1" parent="1" source="Uie5on7mD__ppeKLT5dT-9" style="html=1;rounded=0;edgeStyle=none;strokeColor=#1F2D3D;strokeWidth=1.5;endSize=10;startSize=10;exitX=0.234;exitY=0.799;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.808;entryY=0.100;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classic;endFill=1;startArrow=none;labelBackgroundColor=#FFFFFF;fontSize=13;fontColor=#1F2D3D;" target="Uie5on7mD__ppeKLT5dT-3" value="Resultado da autenticação">
+        <mxCell id="F_-E-uBlT32sebtiUWOK-10" edge="1" parent="1" source="F_-E-uBlT32sebtiUWOK-9" style="html=1;rounded=0;edgeStyle=none;strokeColor=#1F2D3D;strokeWidth=1.5;endSize=10;startSize=10;exitX=0.234;exitY=0.799;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.808;entryY=0.100;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classic;endFill=1;startArrow=none;labelBackgroundColor=#FFFFFF;fontSize=13;fontColor=#1F2D3D;" target="F_-E-uBlT32sebtiUWOK-3" value="Resultado da autenticação">
           <mxGeometry relative="1" x="-0.5" as="geometry">
             <mxPoint x="-10" y="-10.2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Uie5on7mD__ppeKLT5dT-11" edge="1" parent="1" source="Uie5on7mD__ppeKLT5dT-9" style="html=1;rounded=0;edgeStyle=none;strokeColor=#1F2D3D;strokeWidth=1.5;endSize=10;startSize=10;exitX=0.383;exitY=1.000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.905;entryY=0.199;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;startArrow=classic;startFill=1;labelBackgroundColor=#FFFFFF;fontSize=13;fontColor=#1F2D3D;" target="Uie5on7mD__ppeKLT5dT-3" value="Solicitação de autenticação">
+        <mxCell id="F_-E-uBlT32sebtiUWOK-11" edge="1" parent="1" source="F_-E-uBlT32sebtiUWOK-9" style="html=1;rounded=0;edgeStyle=none;strokeColor=#1F2D3D;strokeWidth=1.5;endSize=10;startSize=10;exitX=0.383;exitY=1.000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.905;entryY=0.199;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;startArrow=classic;startFill=1;labelBackgroundColor=#FFFFFF;fontSize=13;fontColor=#1F2D3D;" target="F_-E-uBlT32sebtiUWOK-3" value="Solicitação de autenticação">
           <mxGeometry relative="1" x="-0.05" as="geometry">
             <mxPoint x="10" y="10.2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Uie5on7mD__ppeKLT5dT-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;strokeColor=#1F2D3D;fillColor=#F1F3F5;fontColor=#1F2D3D;" value="Serviço Externo de Pagamentos" vertex="1">
+        <mxCell id="F_-E-uBlT32sebtiUWOK-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;strokeColor=#1F2D3D;fillColor=#F1F3F5;fontColor=#1F2D3D;" value="Serviço Externo de Pagamentos" vertex="1">
           <mxGeometry height="64" width="170" x="1580.7" y="633.5" as="geometry" />
         </mxCell>
-        <mxCell id="Uie5on7mD__ppeKLT5dT-13" edge="1" parent="1" source="Uie5on7mD__ppeKLT5dT-12" style="html=1;rounded=0;edgeStyle=none;strokeColor=#1F2D3D;strokeWidth=1.5;endSize=10;startSize=10;exitX=0.000;exitY=0.534;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.971;entryY=0.320;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classic;endFill=1;startArrow=none;labelBackgroundColor=#FFFFFF;fontSize=13;fontColor=#1F2D3D;" target="Uie5on7mD__ppeKLT5dT-3" value="Status do pagamento">
+        <mxCell id="F_-E-uBlT32sebtiUWOK-13" edge="1" parent="1" source="F_-E-uBlT32sebtiUWOK-12" style="html=1;rounded=0;edgeStyle=none;strokeColor=#1F2D3D;strokeWidth=1.5;endSize=10;startSize=10;exitX=0.000;exitY=0.534;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.971;entryY=0.320;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classic;endFill=1;startArrow=none;labelBackgroundColor=#FFFFFF;fontSize=13;fontColor=#1F2D3D;" target="F_-E-uBlT32sebtiUWOK-3" value="Status do pagamento">
           <mxGeometry relative="1" x="-0.5" as="geometry">
             <mxPoint x="-4.4" y="-19" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Uie5on7mD__ppeKLT5dT-14" edge="1" parent="1" source="Uie5on7mD__ppeKLT5dT-12" style="html=1;rounded=0;edgeStyle=none;strokeColor=#1F2D3D;strokeWidth=1.5;endSize=10;startSize=10;exitX=0.024;exitY=1.000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.003;entryY=0.454;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;startArrow=classic;startFill=1;labelBackgroundColor=#FFFFFF;fontSize=13;fontColor=#1F2D3D;" target="Uie5on7mD__ppeKLT5dT-3" value="Solicitação de pagamento">
+        <mxCell id="F_-E-uBlT32sebtiUWOK-14" edge="1" parent="1" source="F_-E-uBlT32sebtiUWOK-12" style="html=1;rounded=0;edgeStyle=none;strokeColor=#1F2D3D;strokeWidth=1.5;endSize=10;startSize=10;exitX=0.024;exitY=1.000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.003;entryY=0.454;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;startArrow=classic;startFill=1;labelBackgroundColor=#FFFFFF;fontSize=13;fontColor=#1F2D3D;" target="F_-E-uBlT32sebtiUWOK-3" value="Solicitação de pagamento">
           <mxGeometry relative="1" x="-0.05" as="geometry">
             <mxPoint x="4.4" y="19" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Uie5on7mD__ppeKLT5dT-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;strokeColor=#1F2D3D;fillColor=#FFFFFF;fontColor=#1F2D3D;" value="Pagador externo" vertex="1">
+        <mxCell id="F_-E-uBlT32sebtiUWOK-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;strokeColor=#1F2D3D;fillColor=#FFFFFF;fontColor=#1F2D3D;" value="Pagador externo" vertex="1">
           <mxGeometry height="64" width="170" x="1580.7" y="942.5" as="geometry" />
         </mxCell>
-        <mxCell id="Uie5on7mD__ppeKLT5dT-16" edge="1" parent="1" source="Uie5on7mD__ppeKLT5dT-15" style="html=1;rounded=0;edgeStyle=none;strokeColor=#1F2D3D;strokeWidth=1.5;endSize=10;startSize=10;exitX=0.024;exitY=0.000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.003;entryY=0.546;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classic;endFill=1;startArrow=none;labelBackgroundColor=#FFFFFF;fontSize=13;fontColor=#1F2D3D;" target="Uie5on7mD__ppeKLT5dT-3" value="Pagamento por link protegido">
+        <mxCell id="F_-E-uBlT32sebtiUWOK-16" edge="1" parent="1" source="F_-E-uBlT32sebtiUWOK-15" style="html=1;rounded=0;edgeStyle=none;strokeColor=#1F2D3D;strokeWidth=1.5;endSize=10;startSize=10;exitX=0.024;exitY=0.000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.003;entryY=0.546;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classic;endFill=1;startArrow=none;labelBackgroundColor=#FFFFFF;fontSize=13;fontColor=#1F2D3D;" target="F_-E-uBlT32sebtiUWOK-3" value="Pagamento por link protegido">
           <mxGeometry relative="1" x="-0.5" as="geometry">
             <mxPoint x="4.4" y="-19" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Uie5on7mD__ppeKLT5dT-17" edge="1" parent="1" source="Uie5on7mD__ppeKLT5dT-15" style="html=1;rounded=0;edgeStyle=none;strokeColor=#1F2D3D;strokeWidth=1.5;endSize=10;startSize=10;exitX=0.000;exitY=0.466;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.971;entryY=0.680;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;startArrow=classic;startFill=1;labelBackgroundColor=#FFFFFF;fontSize=13;fontColor=#1F2D3D;" target="Uie5on7mD__ppeKLT5dT-3" value="Dados da cobrança">
+        <mxCell id="F_-E-uBlT32sebtiUWOK-17" edge="1" parent="1" source="F_-E-uBlT32sebtiUWOK-15" style="html=1;rounded=0;edgeStyle=none;strokeColor=#1F2D3D;strokeWidth=1.5;endSize=10;startSize=10;exitX=0.000;exitY=0.466;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.971;entryY=0.680;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;startArrow=classic;startFill=1;labelBackgroundColor=#FFFFFF;fontSize=13;fontColor=#1F2D3D;" target="F_-E-uBlT32sebtiUWOK-3" value="Dados da cobrança">
           <mxGeometry relative="1" x="-0.05" as="geometry">
             <mxPoint x="-4.4" y="19" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Uie5on7mD__ppeKLT5dT-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;strokeColor=#1F2D3D;fillColor=#F1F3F5;fontColor=#1F2D3D;" value="Serviço Externo de Notificação" vertex="1">
+        <mxCell id="F_-E-uBlT32sebtiUWOK-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;strokeColor=#1F2D3D;fillColor=#F1F3F5;fontColor=#1F2D3D;" value="Serviço externo de notificação/comunicação" vertex="1">
           <mxGeometry height="64" width="170" x="1326.4" y="1192.5" as="geometry" />
         </mxCell>
-        <mxCell id="Uie5on7mD__ppeKLT5dT-19" edge="1" parent="1" source="Uie5on7mD__ppeKLT5dT-18" style="html=1;rounded=0;edgeStyle=none;strokeColor=#1F2D3D;strokeWidth=1.5;endSize=10;startSize=10;exitX=0.383;exitY=0.000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.905;entryY=0.801;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classic;endFill=1;startArrow=none;labelBackgroundColor=#FFFFFF;fontSize=13;fontColor=#1F2D3D;" target="Uie5on7mD__ppeKLT5dT-3" value="Status do envio">
+        <mxCell id="F_-E-uBlT32sebtiUWOK-19" edge="1" parent="1" source="F_-E-uBlT32sebtiUWOK-18" style="html=1;rounded=0;edgeStyle=none;strokeColor=#1F2D3D;strokeWidth=1.5;endSize=10;startSize=10;exitX=0.383;exitY=0.000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.905;entryY=0.801;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classic;endFill=1;startArrow=none;labelBackgroundColor=#FFFFFF;fontSize=13;fontColor=#1F2D3D;" target="F_-E-uBlT32sebtiUWOK-3" value="Status do envio">
           <mxGeometry relative="1" x="-0.5" as="geometry">
             <mxPoint x="10" y="-10.2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Uie5on7mD__ppeKLT5dT-20" edge="1" parent="1" source="Uie5on7mD__ppeKLT5dT-18" style="html=1;rounded=0;edgeStyle=none;strokeColor=#1F2D3D;strokeWidth=1.5;endSize=10;startSize=10;exitX=0.234;exitY=0.201;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.808;entryY=0.900;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;startArrow=classic;startFill=1;labelBackgroundColor=#FFFFFF;fontSize=13;fontColor=#1F2D3D;" target="Uie5on7mD__ppeKLT5dT-3" value="Solicitação de notificação">
+        <mxCell id="F_-E-uBlT32sebtiUWOK-20" edge="1" parent="1" source="F_-E-uBlT32sebtiUWOK-18" style="html=1;rounded=0;edgeStyle=none;strokeColor=#1F2D3D;strokeWidth=1.5;endSize=10;startSize=10;exitX=0.234;exitY=0.201;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.808;entryY=0.900;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;startArrow=classic;startFill=1;labelBackgroundColor=#FFFFFF;fontSize=13;fontColor=#1F2D3D;" target="F_-E-uBlT32sebtiUWOK-3" value="Solicitação de notificação">
           <mxGeometry relative="1" x="-0.05" as="geometry">
             <mxPoint x="-10" y="10.2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Uie5on7mD__ppeKLT5dT-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;strokeColor=#1F2D3D;fillColor=#FFFFFF;fontColor=#1F2D3D;" value="Destinatário autorizado" vertex="1">
+        <mxCell id="F_-E-uBlT32sebtiUWOK-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;strokeColor=#1F2D3D;fillColor=#FFFFFF;fontColor=#1F2D3D;" value="Destinatário autorizado" vertex="1">
           <mxGeometry height="64" width="170" x="915" y="1288" as="geometry" />
         </mxCell>
-        <mxCell id="Uie5on7mD__ppeKLT5dT-22" edge="1" parent="1" source="Uie5on7mD__ppeKLT5dT-21" style="html=1;rounded=0;edgeStyle=none;strokeColor=#1F2D3D;strokeWidth=1.5;endSize=10;startSize=10;exitX=0.606;exitY=0.000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.569;entryY=1.000;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classic;endFill=1;startArrow=none;labelBackgroundColor=#FFFFFF;fontSize=13;fontColor=#1F2D3D;" target="Uie5on7mD__ppeKLT5dT-3" value="Acesso por link e verificação de identidade">
+        <mxCell id="F_-E-uBlT32sebtiUWOK-22" edge="1" parent="1" source="F_-E-uBlT32sebtiUWOK-21" style="html=1;rounded=0;edgeStyle=none;strokeColor=#1F2D3D;strokeWidth=1.5;endSize=10;startSize=10;exitX=0.606;exitY=0.000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.569;entryY=1.000;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classic;endFill=1;startArrow=none;labelBackgroundColor=#FFFFFF;fontSize=13;fontColor=#1F2D3D;" target="F_-E-uBlT32sebtiUWOK-3" value="Acesso por link e verificação de identidade">
           <mxGeometry relative="1" x="-0.5" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Uie5on7mD__ppeKLT5dT-23" edge="1" parent="1" source="Uie5on7mD__ppeKLT5dT-21" style="html=1;rounded=0;edgeStyle=none;strokeColor=#1F2D3D;strokeWidth=1.5;endSize=10;startSize=10;exitX=0.394;exitY=0.000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.431;entryY=1.000;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;startArrow=classic;startFill=1;labelBackgroundColor=#FFFFFF;fontSize=13;fontColor=#1F2D3D;" target="Uie5on7mD__ppeKLT5dT-3" value="Documento liberado">
+        <mxCell id="F_-E-uBlT32sebtiUWOK-23" edge="1" parent="1" source="F_-E-uBlT32sebtiUWOK-21" style="html=1;rounded=0;edgeStyle=none;strokeColor=#1F2D3D;strokeWidth=1.5;endSize=10;startSize=10;exitX=0.394;exitY=0.000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.431;entryY=1.000;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;startArrow=classic;startFill=1;labelBackgroundColor=#FFFFFF;fontSize=13;fontColor=#1F2D3D;" target="F_-E-uBlT32sebtiUWOK-3" value="Documento liberado">
           <mxGeometry relative="1" x="-0.05" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Uie5on7mD__ppeKLT5dT-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;strokeColor=#1F2D3D;fillColor=#FFFFFF;fontColor=#1F2D3D;" value="Responsável" vertex="1">
+        <mxCell id="F_-E-uBlT32sebtiUWOK-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;strokeColor=#1F2D3D;fillColor=#FFFFFF;fontColor=#1F2D3D;" value="Responsável" vertex="1">
           <mxGeometry height="64" width="170" x="503.6" y="1192.5" as="geometry" />
         </mxCell>
-        <mxCell id="Uie5on7mD__ppeKLT5dT-25" edge="1" parent="1" source="Uie5on7mD__ppeKLT5dT-24" style="html=1;rounded=0;edgeStyle=none;strokeColor=#1F2D3D;strokeWidth=1.5;endSize=10;startSize=10;exitX=0.766;exitY=0.201;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.192;entryY=0.900;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classic;endFill=1;startArrow=none;labelBackgroundColor=#FFFFFF;fontSize=13;fontColor=#1F2D3D;" target="Uie5on7mD__ppeKLT5dT-3" value="Gestão do paciente vinculado">
+        <mxCell id="F_-E-uBlT32sebtiUWOK-25" edge="1" parent="1" source="F_-E-uBlT32sebtiUWOK-24" style="html=1;rounded=0;edgeStyle=none;strokeColor=#1F2D3D;strokeWidth=1.5;endSize=10;startSize=10;exitX=0.766;exitY=0.201;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.192;entryY=0.900;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classic;endFill=1;startArrow=none;labelBackgroundColor=#FFFFFF;fontSize=13;fontColor=#1F2D3D;" target="F_-E-uBlT32sebtiUWOK-3" value="Gestão do paciente vinculado">
           <mxGeometry relative="1" x="-0.5" as="geometry">
             <mxPoint x="10" y="10.2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Uie5on7mD__ppeKLT5dT-26" edge="1" parent="1" source="Uie5on7mD__ppeKLT5dT-24" style="html=1;rounded=0;edgeStyle=none;strokeColor=#1F2D3D;strokeWidth=1.5;endSize=10;startSize=10;exitX=0.617;exitY=0.000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.095;entryY=0.801;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;startArrow=classic;startFill=1;labelBackgroundColor=#FFFFFF;fontSize=13;fontColor=#1F2D3D;" target="Uie5on7mD__ppeKLT5dT-3" value="Dados e informações autorizadas">
+        <mxCell id="F_-E-uBlT32sebtiUWOK-26" edge="1" parent="1" source="F_-E-uBlT32sebtiUWOK-24" style="html=1;rounded=0;edgeStyle=none;strokeColor=#1F2D3D;strokeWidth=1.5;endSize=10;startSize=10;exitX=0.617;exitY=0.000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.095;entryY=0.801;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;startArrow=classic;startFill=1;labelBackgroundColor=#FFFFFF;fontSize=13;fontColor=#1F2D3D;" target="F_-E-uBlT32sebtiUWOK-3" value="Dados e informações autorizadas">
           <mxGeometry relative="1" x="-0.05" as="geometry">
             <mxPoint x="-10" y="-10.2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Uie5on7mD__ppeKLT5dT-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;strokeColor=#1F2D3D;fillColor=#FFFFFF;fontColor=#1F2D3D;" value="Paciente" vertex="1">
+        <mxCell id="F_-E-uBlT32sebtiUWOK-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;strokeColor=#1F2D3D;fillColor=#FFFFFF;fontColor=#1F2D3D;" value="Paciente" vertex="1">
           <mxGeometry height="64" width="170" x="249.3" y="942.5" as="geometry" />
         </mxCell>
-        <mxCell id="Uie5on7mD__ppeKLT5dT-28" edge="1" parent="1" source="Uie5on7mD__ppeKLT5dT-27" style="html=1;rounded=0;edgeStyle=none;strokeColor=#1F2D3D;strokeWidth=1.5;endSize=10;startSize=10;exitX=1.000;exitY=0.466;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.029;entryY=0.680;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classic;endFill=1;startArrow=none;labelBackgroundColor=#FFFFFF;fontSize=13;fontColor=#1F2D3D;" target="Uie5on7mD__ppeKLT5dT-3" value="Gestão de serviços e agendamentos">
+        <mxCell id="F_-E-uBlT32sebtiUWOK-28" edge="1" parent="1" source="F_-E-uBlT32sebtiUWOK-27" style="html=1;rounded=0;edgeStyle=none;strokeColor=#1F2D3D;strokeWidth=1.5;endSize=10;startSize=10;exitX=1.000;exitY=0.466;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.029;entryY=0.680;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classic;endFill=1;startArrow=none;labelBackgroundColor=#FFFFFF;fontSize=13;fontColor=#1F2D3D;" target="F_-E-uBlT32sebtiUWOK-3" value="Gestão de serviços e agendamentos">
           <mxGeometry relative="1" x="-0.5" as="geometry">
             <mxPoint x="4.4" y="19" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Uie5on7mD__ppeKLT5dT-29" edge="1" parent="1" source="Uie5on7mD__ppeKLT5dT-27" style="html=1;rounded=0;edgeStyle=none;strokeColor=#1F2D3D;strokeWidth=1.5;endSize=10;startSize=10;exitX=0.976;exitY=0.000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.003;entryY=0.546;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;startArrow=classic;startFill=1;labelBackgroundColor=#FFFFFF;fontSize=13;fontColor=#1F2D3D;" target="Uie5on7mD__ppeKLT5dT-3" value="Agenda, pagamentos e informações">
+        <mxCell id="F_-E-uBlT32sebtiUWOK-29" edge="1" parent="1" source="F_-E-uBlT32sebtiUWOK-27" style="html=1;rounded=0;edgeStyle=none;strokeColor=#1F2D3D;strokeWidth=1.5;endSize=10;startSize=10;exitX=0.976;exitY=0.000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.003;entryY=0.546;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;startArrow=classic;startFill=1;labelBackgroundColor=#FFFFFF;fontSize=13;fontColor=#1F2D3D;" target="F_-E-uBlT32sebtiUWOK-3" value="Agenda, pagamentos e informações">
           <mxGeometry relative="1" x="-0.05" as="geometry">
             <mxPoint x="-4.4" y="-19" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Uie5on7mD__ppeKLT5dT-30" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;strokeColor=#1F2D3D;fillColor=#FFFFFF;fontColor=#1F2D3D;" value="Psicólogo" vertex="1">
+        <mxCell id="F_-E-uBlT32sebtiUWOK-30" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;strokeColor=#1F2D3D;fillColor=#FFFFFF;fontColor=#1F2D3D;" value="Psicólogo" vertex="1">
           <mxGeometry height="64" width="170" x="249.3" y="633.5" as="geometry" />
         </mxCell>
-        <mxCell id="Uie5on7mD__ppeKLT5dT-31" edge="1" parent="1" source="Uie5on7mD__ppeKLT5dT-30" style="html=1;rounded=0;edgeStyle=none;strokeColor=#1F2D3D;strokeWidth=1.5;endSize=10;startSize=10;exitX=0.976;exitY=1.000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.003;entryY=0.454;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classic;endFill=1;startArrow=none;labelBackgroundColor=#FFFFFF;fontSize=13;fontColor=#1F2D3D;" target="Uie5on7mD__ppeKLT5dT-3" value="Gestão de agenda e atendimentos">
+        <mxCell id="F_-E-uBlT32sebtiUWOK-31" edge="1" parent="1" source="F_-E-uBlT32sebtiUWOK-30" style="html=1;rounded=0;edgeStyle=none;strokeColor=#1F2D3D;strokeWidth=1.5;endSize=10;startSize=10;exitX=0.976;exitY=1.000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.003;entryY=0.454;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classic;endFill=1;startArrow=none;labelBackgroundColor=#FFFFFF;fontSize=13;fontColor=#1F2D3D;" target="F_-E-uBlT32sebtiUWOK-3" value="Gestão de agenda e atendimentos">
           <mxGeometry relative="1" x="-0.5" as="geometry">
             <mxPoint x="-4.4" y="19" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Uie5on7mD__ppeKLT5dT-32" edge="1" parent="1" source="Uie5on7mD__ppeKLT5dT-30" style="html=1;rounded=0;edgeStyle=none;strokeColor=#1F2D3D;strokeWidth=1.5;endSize=10;startSize=10;exitX=1.000;exitY=0.534;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.029;entryY=0.320;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;startArrow=classic;startFill=1;labelBackgroundColor=#FFFFFF;fontSize=13;fontColor=#1F2D3D;" target="Uie5on7mD__ppeKLT5dT-3" value="Agenda e dados do paciente">
+        <mxCell id="F_-E-uBlT32sebtiUWOK-32" edge="1" parent="1" source="F_-E-uBlT32sebtiUWOK-30" style="html=1;rounded=0;edgeStyle=none;strokeColor=#1F2D3D;strokeWidth=1.5;endSize=10;startSize=10;exitX=1.000;exitY=0.534;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.029;entryY=0.320;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;startArrow=classic;startFill=1;labelBackgroundColor=#FFFFFF;fontSize=13;fontColor=#1F2D3D;" target="F_-E-uBlT32sebtiUWOK-3" value="Agenda e dados do paciente">
           <mxGeometry relative="1" x="-0.05" as="geometry">
             <mxPoint x="4.4" y="-19" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Uie5on7mD__ppeKLT5dT-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;strokeColor=#1F2D3D;fillColor=#FFFFFF;fontColor=#1F2D3D;" value="Atendente" vertex="1">
+        <mxCell id="F_-E-uBlT32sebtiUWOK-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;strokeColor=#1F2D3D;fillColor=#FFFFFF;fontColor=#1F2D3D;" value="Atendente" vertex="1">
           <mxGeometry height="64" width="170" x="503.6" y="383.5" as="geometry" />
         </mxCell>
-        <mxCell id="Uie5on7mD__ppeKLT5dT-34" edge="1" parent="1" source="Uie5on7mD__ppeKLT5dT-33" style="html=1;rounded=0;edgeStyle=none;strokeColor=#1F2D3D;strokeWidth=1.5;endSize=10;startSize=10;exitX=0.617;exitY=1.000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.095;entryY=0.199;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classic;endFill=1;startArrow=none;labelBackgroundColor=#FFFFFF;fontSize=13;fontColor=#1F2D3D;" target="Uie5on7mD__ppeKLT5dT-3" value="Gestão de pacientes e agenda">
+        <mxCell id="F_-E-uBlT32sebtiUWOK-34" edge="1" parent="1" source="F_-E-uBlT32sebtiUWOK-33" style="html=1;rounded=0;edgeStyle=none;strokeColor=#1F2D3D;strokeWidth=1.5;endSize=10;startSize=10;exitX=0.617;exitY=1.000;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.095;entryY=0.199;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classic;endFill=1;startArrow=none;labelBackgroundColor=#FFFFFF;fontSize=13;fontColor=#1F2D3D;" target="F_-E-uBlT32sebtiUWOK-3" value="Gestão de pacientes e agenda">
           <mxGeometry relative="1" x="-0.5" as="geometry">
             <mxPoint x="-10" y="10.2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Uie5on7mD__ppeKLT5dT-35" edge="1" parent="1" source="Uie5on7mD__ppeKLT5dT-33" style="html=1;rounded=0;edgeStyle=none;strokeColor=#1F2D3D;strokeWidth=1.5;endSize=10;startSize=10;exitX=0.766;exitY=0.799;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.192;entryY=0.100;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;startArrow=classic;startFill=1;labelBackgroundColor=#FFFFFF;fontSize=13;fontColor=#1F2D3D;" target="Uie5on7mD__ppeKLT5dT-3" value="Dados administrativos">
+        <mxCell id="F_-E-uBlT32sebtiUWOK-35" edge="1" parent="1" source="F_-E-uBlT32sebtiUWOK-33" style="html=1;rounded=0;edgeStyle=none;strokeColor=#1F2D3D;strokeWidth=1.5;endSize=10;startSize=10;exitX=0.766;exitY=0.799;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.192;entryY=0.100;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;startArrow=classic;startFill=1;labelBackgroundColor=#FFFFFF;fontSize=13;fontColor=#1F2D3D;" target="F_-E-uBlT32sebtiUWOK-3" value="Dados administrativos">
           <mxGeometry relative="1" x="-0.05" as="geometry">
             <mxPoint x="10" y="-10.2" as="offset" />
           </mxGeometry>
