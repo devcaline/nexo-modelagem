@@ -16,6 +16,7 @@ nexo-modelagem-av3/
 │   └── 03-modelagem-de-dominio-e-orientacao-a-objetos   # conceitos, responsabilidades, classes, objetos, OO e SOLID
 └── diagramas/
     ├── contexto/                            # fronteira do sistema e atores externos
+    │   └── diagrama-de-contexto.drawio      # arquivo editável
     ├── casos-de-uso/                        # um diagrama por módulo (01 a 10)
     │   └── diagramas-casos-de-uso.drawio    # arquivo editável com os 10 diagramas
     ├── classes/                             # um diagrama de classes por área (01 a 09)
@@ -79,12 +80,15 @@ Mostra as instâncias e os vínculos no instante em que uma consulta é agendada
 
 Os arquivos-fonte dos diagramas podem ser abertos no navegador, sem instalar nada e sem precisar de conta:
 
+**[🔗 Abrir o diagrama de contexto no draw.io (somente visualização)](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=diagrama-de-contexto.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem-av3%2Fmain%2Fdiagramas%2Fcontexto%2Fdiagrama-de-contexto.drawio>)** · [ver imagem](diagramas/contexto/diagrama-de-contexto.png)
+
 **[🔗 Abrir os 10 diagramas de casos de uso no draw.io (somente visualização)](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=diagramas-casos-de-uso.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem-av3%2Fmain%2Fdiagramas%2Fcasos-de-uso%2Fdiagramas-casos-de-uso.drawio>)**
 
 **[🔗 Abrir os 9 diagramas de classes no draw.io (somente visualização)](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=diagramas-classes.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem-av3%2Fmain%2Fdiagramas%2Fclasses%2Fdiagramas-classes.drawio>)**
 
 As páginas ficam na barra inferior e seguem a ordem das tabelas acima. Os arquivos também podem ser baixados:
 
+- [`diagramas/contexto/diagrama-de-contexto.drawio`](diagramas/contexto/diagrama-de-contexto.drawio)
 - [`diagramas/casos-de-uso/diagramas-casos-de-uso.drawio`](diagramas/casos-de-uso/diagramas-casos-de-uso.drawio)
 - [`diagramas/classes/diagramas-classes.drawio`](diagramas/classes/diagramas-classes.drawio)
 - [`diagramas/objetos/diagrama-objetos.drawio`](diagramas/objetos/diagrama-objetos.drawio)
