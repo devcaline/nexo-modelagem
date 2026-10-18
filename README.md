@@ -12,7 +12,7 @@ Este repositório guarda o **Dossiê de Modelagem Orientada a Objetos** do siste
 nexo-modelagem-av3/
 ├── docs/                                    # cada documento em PDF (leitura) e .docx (editável)
 │   ├── 01-visao-requisitos-e-regras         # visão, escopo, atores, RF, RNF, RN, histórias e critérios de aceite
-│   ├── 02-especificacao-casos-de-uso        # UC-001 a UC-049, com diagramas, fluxos e regras
+│   ├── 02-especificacao-casos-de-uso        # UC-001 a UC-056, com diagramas, fluxos e regras
 │   └── 03-modelagem-de-dominio-e-orientacao-a-objetos   # conceitos, responsabilidades, classes, objetos, OO e SOLID
 └── diagramas/
     ├── contexto/                            # fronteira do sistema e atores externos
@@ -32,7 +32,7 @@ Os diagramas ficam exportados em `.png` para leitura rápida. Cada pasta tem um 
 | Documento | Conteúdo | Editável |
 |-----------|----------|:--------:|
 | [Visão, requisitos e regras](docs/01-visao-requisitos-e-regras.pdf) | Documento de visão, situação-problema, objetivos, escopo e fronteiras, premissas, stakeholders e atores, glossário, inovação proposta, **75 requisitos funcionais (RF)**, **17 não funcionais (RNF)**, **80 regras de negócio (RN)**, histórias de usuário e critérios de aceite | [.docx](docs/01-visao-requisitos-e-regras.docx) |
-| [Especificação dos casos de uso](docs/02-especificacao-casos-de-uso.pdf) | Padrões de identificação, diagramas por módulo e especificação textual de **49 casos de uso** (UC-001 a UC-049) | [.docx](docs/02-especificacao-casos-de-uso.docx) |
+| [Especificação dos casos de uso](docs/02-especificacao-casos-de-uso.pdf) | Padrões de identificação, diagramas por módulo e especificação textual de **56 casos de uso** (UC-001 a UC-056) | [.docx](docs/02-especificacao-casos-de-uso.docx) |
 | [Modelagem de domínio e orientação a objetos](docs/03-modelagem-de-dominio-e-orientacao-a-objetos.pdf) | **28 conceitos do domínio** com origem nos casos de uso, quadro de responsabilidades e colaborações das classes, explicação dos diagramas de classes e de objetos, aplicação dos princípios de OO (abstração, encapsulamento, coesão, acoplamento, herança, polimorfismo e composição) e dos princípios **SOLID** | [.docx](docs/03-modelagem-de-dominio-e-orientacao-a-objetos.docx) |
 
 ## 🧩 Módulos
