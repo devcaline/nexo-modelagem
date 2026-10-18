@@ -17,8 +17,8 @@ nexo-modelagem-av3/
 └── diagramas/
     ├── contexto/                            # fronteira do sistema e atores externos
     │   └── diagrama-de-contexto.drawio      # arquivo editável
-    ├── casos-de-uso/                        # um diagrama por módulo (01 a 10)
-    │   └── diagramas-casos-de-uso.drawio    # arquivo editável com os 10 diagramas
+    ├── casos-de-uso/                        # um diagrama por módulo (01 a 11)
+    │   └── diagramas-casos-de-uso.drawio    # arquivo editável com os 11 diagramas
     ├── classes/                             # um diagrama de classes por área (01 a 09)
     │   └── diagramas-classes.drawio         # arquivo editável com os 9 diagramas
     └── objetos/                             # instâncias de um cenário (UC-027)
@@ -37,7 +37,7 @@ Os diagramas ficam exportados em `.png` para leitura rápida. Cada pasta tem um 
 
 ## 🧩 Módulos
 
-Os 49 casos de uso estão divididos em 10 módulos. Cada um tem um diagrama próprio:
+Os 56 casos de uso estão divididos em 11 módulos. Cada um tem um diagrama próprio. Os casos de uso automáticos (UC-050 a UC-054) são executados pelo ator **Agendador**, um processo da plataforma que roda em horários definidos.
 
 | # | Módulo | Imagem | Arquivo editável |
 |:-:|--------|:------:|:----------------:|
@@ -51,6 +51,7 @@ Os 49 casos de uso estão divididos em 10 módulos. Cada um tem um diagrama pró
 | 08 | Financeiro e Pagamentos | [ver](diagramas/casos-de-uso/08-financeiro-e-pagamentos.png) | [abrir](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=diagramas-casos-de-uso.drawio&page-id=7p_f6k52_ZvSWfSv3xck#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem-av3%2Fmain%2Fdiagramas%2Fcasos-de-uso%2Fdiagramas-casos-de-uso.drawio>) |
 | 09 | Lista de Espera e Encaixes | [ver](diagramas/casos-de-uso/09-lista-de-espera-e-encaixes.png) | [abrir](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=diagramas-casos-de-uso.drawio&page-id=WWKL9XNSHv-sA6mnodhM#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem-av3%2Fmain%2Fdiagramas%2Fcasos-de-uso%2Fdiagramas-casos-de-uso.drawio>) |
 | 10 | Compartilhamento de Documentos | [ver](diagramas/casos-de-uso/10-compartilhamento-de-documentos.png) | [abrir](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=diagramas-casos-de-uso.drawio&page-id=msohQ2KOXuRciw_aY0eF#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem-av3%2Fmain%2Fdiagramas%2Fcasos-de-uso%2Fdiagramas-casos-de-uso.drawio>) |
+| 11 | Notificações | [ver](diagramas/casos-de-uso/11-notificacoes.png) | [abrir](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=diagramas-casos-de-uso.drawio&page-id=uc-notificacoes#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem-av3%2Fmain%2Fdiagramas%2Fcasos-de-uso%2Fdiagramas-casos-de-uso.drawio>) |
 
 ## 🧱 Diagramas de classes
 
@@ -82,7 +83,7 @@ Os arquivos-fonte dos diagramas podem ser abertos no navegador, sem instalar nad
 
 **[🔗 Abrir o diagrama de contexto no draw.io (somente visualização)](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=diagrama-de-contexto.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem-av3%2Fmain%2Fdiagramas%2Fcontexto%2Fdiagrama-de-contexto.drawio>)** · [ver imagem](diagramas/contexto/diagrama-de-contexto.png)
 
-**[🔗 Abrir os 10 diagramas de casos de uso no draw.io (somente visualização)](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=diagramas-casos-de-uso.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem-av3%2Fmain%2Fdiagramas%2Fcasos-de-uso%2Fdiagramas-casos-de-uso.drawio>)**
+**[🔗 Abrir os 11 diagramas de casos de uso no draw.io (somente visualização)](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=diagramas-casos-de-uso.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem-av3%2Fmain%2Fdiagramas%2Fcasos-de-uso%2Fdiagramas-casos-de-uso.drawio>)**
 
 **[🔗 Abrir os 9 diagramas de classes no draw.io (somente visualização)](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=diagramas-classes.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem-av3%2Fmain%2Fdiagramas%2Fclasses%2Fdiagramas-classes.drawio>)**
 
