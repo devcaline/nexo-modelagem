@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" pages="10">
   <diagram name="Página-1" id="TTQjXH0QLTnTZkFuTSbk">
-    <mxGraphModel dx="1377" dy="1662" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="0" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -43,7 +43,7 @@
         <mxCell id="QH_7d2BxhhqeQ4jzSAh6-4" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Paciente" vertex="1">
           <mxGeometry height="60" width="30" x="-23" y="277.32" as="geometry" />
         </mxCell>
-        <mxCell id="QH_7d2BxhhqeQ4jzSAh6-5" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Serviço de Autenticação Google" vertex="1">
+        <mxCell id="QH_7d2BxhhqeQ4jzSAh6-5" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Serviço externo de autenticação" vertex="1">
           <mxGeometry height="60" width="30" x="540" y="-102" as="geometry" />
         </mxCell>
         <mxCell id="QH_7d2BxhhqeQ4jzSAh6-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="&lt;p&gt;UC-006&lt;/p&gt;&lt;p&gt;Alterar senha&lt;/p&gt;" vertex="1">
@@ -79,7 +79,10 @@
         <mxCell id="QH_7d2BxhhqeQ4jzSAh6-35" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Administrador&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="30" x="-271" y="273.82" as="geometry" />
         </mxCell>
-      <mxCell id="p1-uc2-1" value="" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QH_7d2BxhhqeQ4jzSAh6-12" target="QH_7d2BxhhqeQ4jzSAh6-5"><mxGeometry relative="1" as="geometry" /></mxCell></root>
+        <mxCell id="p1-uc2-1" edge="1" parent="1" source="QH_7d2BxhhqeQ4jzSAh6-12" style="edgeStyle=none;rounded=0;html=1;endArrow=none;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="QH_7d2BxhhqeQ4jzSAh6-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
     </mxGraphModel>
   </diagram>
   <diagram id="jioY7CT-6xVF0ysiqzDF" name="Página-2">
