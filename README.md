@@ -1,4 +1,4 @@
-# 🧠 Nexo — Análise Orientada a Objetos
+# Nexo — Análise Orientada a Objetos
 
 **Nexo** é uma plataforma de gestão de serviços psicológicos para profissionais de diferentes áreas da Psicologia (clínica, organizacional, escolar, hospitalar, jurídica e outras). Ela reúne cadastros, permissões, agenda, atendimentos, financeiro e documentos num só lugar, com controle de acesso, auditoria e respeito à LGPD e ao sigilo profissional.
 
@@ -6,7 +6,7 @@ Este repositório guarda o **Dossiê de Modelagem Orientada a Objetos** do siste
 
 > Trabalho da **Avaliação 3 (AV3)** da disciplina de **Análise Orientada a Objetos** — Ciência da Computação, UNIJORGE.
 
-## 📂 Estrutura
+## Estrutura
 
 ```text
 nexo-modelagem-av3/
@@ -27,7 +27,7 @@ nexo-modelagem-av3/
 
 Os diagramas ficam exportados em `.png` para leitura rápida. Cada pasta tem um arquivo `.drawio` editável com todos os diagramas daquele tipo, um por página, na mesma ordem das tabelas abaixo.
 
-## 📄 Documentos
+## Documentos
 
 | Documento | Conteúdo | Editável |
 |-----------|----------|:--------:|
@@ -35,7 +35,7 @@ Os diagramas ficam exportados em `.png` para leitura rápida. Cada pasta tem um 
 | [Especificação dos casos de uso](docs/02-especificacao-casos-de-uso.pdf) | Padrões de identificação, diagramas por módulo e especificação textual de **56 casos de uso** (UC-001 a UC-056) | [.docx](docs/02-especificacao-casos-de-uso.docx) |
 | [Modelagem de domínio e orientação a objetos](docs/03-modelagem-de-dominio-e-orientacao-a-objetos.pdf) | **28 conceitos do domínio** com origem nos casos de uso, quadro de responsabilidades e colaborações das classes, explicação dos diagramas de classes e de objetos, aplicação dos princípios de OO (abstração, encapsulamento, coesão, acoplamento, herança, polimorfismo e composição) e dos princípios **SOLID** | [.docx](docs/03-modelagem-de-dominio-e-orientacao-a-objetos.docx) |
 
-## 🧩 Módulos
+## Módulos
 
 Os 56 casos de uso estão divididos em 11 módulos. Cada um tem um diagrama próprio. Os casos de uso automáticos UC-050, UC-051, UC-053 e UC-054 são executados pelo ator **Agendador**, um processo da plataforma que roda em horários definidos. O UC-052 (Registrar resultado do pagamento) é iniciado pelo **Serviço Externo de Pagamentos**.
 
@@ -53,7 +53,7 @@ Os 56 casos de uso estão divididos em 11 módulos. Cada um tem um diagrama pró
 | 10 | Compartilhamento de Documentos | [ver](diagramas/casos-de-uso/10-compartilhamento-de-documentos.png) | [abrir](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=diagramas-casos-de-uso.drawio&page-id=msohQ2KOXuRciw_aY0eF#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem-av3%2Fmain%2Fdiagramas%2Fcasos-de-uso%2Fdiagramas-casos-de-uso.drawio>) |
 | 11 | Notificações | [ver](diagramas/casos-de-uso/11-notificacoes.png) | [abrir](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=diagramas-casos-de-uso.drawio&page-id=uc-notificacoes#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem-av3%2Fmain%2Fdiagramas%2Fcasos-de-uso%2Fdiagramas-casos-de-uso.drawio>) |
 
-## 🧱 Diagramas de classes
+## Diagramas de classes
 
 O modelo de domínio está dividido em 9 áreas. Em cada diagrama, os atributos são privados (`-`) e as operações públicas (`+`). As classes em cinza estão detalhadas em outra área, e cada diagrama traz as suas enumerações («enumeration») de situação e tipo. O modelo usa herança (Cobrança abstrata, com Cobrança Avulsa e Mensalidade) e composição (Tentativa de Pagamento, Inscrição na Lista de Espera, Registro de Acesso e Versão da Evolução).
 
@@ -69,7 +69,7 @@ O modelo de domínio está dividido em 9 áreas. Em cada diagrama, os atributos 
 | 08 | Documentos e Compartilhamentos | Documento, Compartilhamento, Destinatário, Registro de Acesso | [ver](diagramas/classes/08-documentos-e-compartilhamentos.png) | [abrir](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=diagramas-classes.drawio&page-id=area-8#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem-av3%2Fmain%2Fdiagramas%2Fclasses%2Fdiagramas-classes.drawio>) |
 | 09 | Comunicação e Auditoria | Notificação, Registro de Auditoria | [ver](diagramas/classes/09-comunicacao-e-auditoria.png) | [abrir](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=diagramas-classes.drawio&page-id=area-9#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem-av3%2Fmain%2Fdiagramas%2Fclasses%2Fdiagramas-classes.drawio>) |
 
-## 🔎 Diagrama de objetos
+## Diagrama de objetos
 
 Mostra as instâncias e os vínculos no instante em que uma consulta é agendada, no cenário do **UC-027 — Agendar consulta**: a paciente Mariana marca uma consulta com a psicóloga Ana, dentro de um horário de disponibilidade cadastrado por ela.
 
@@ -77,7 +77,7 @@ Mostra as instâncias e os vínculos no instante em que uma consulta é agendada
 |---------|---------|:------:|:----------------:|
 | UC-027 — Agendar consulta | `ana:Psicólogo`, `mariana:Paciente`, `consulta001:Agendamento`, `disponibilidade001:Disponibilidade` | [ver](diagramas/objetos/uc027-agendar-consulta.png) | [abrir](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=diagrama-objetos.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem-av3%2Fmain%2Fdiagramas%2Fobjetos%2Fdiagrama-objetos.drawio>) |
 
-## ✏️ Arquivos editáveis dos diagramas
+## Arquivos editáveis dos diagramas
 
 Os arquivos-fonte dos diagramas podem ser abertos no navegador, sem instalar nada e sem precisar de conta:
 
@@ -94,7 +94,7 @@ As páginas ficam na barra inferior e seguem a ordem das tabelas acima. Os arqui
 - [`diagramas/classes/diagramas-classes.drawio`](diagramas/classes/diagramas-classes.drawio)
 - [`diagramas/objetos/diagrama-objetos.drawio`](diagramas/objetos/diagrama-objetos.drawio)
 
-## ✅ Andamento dos artefatos
+## Andamento dos artefatos
 
 | Artefato | Situação |
 |----------|:--------:|
@@ -117,14 +117,14 @@ As páginas ficam na barra inferior e seguem a ordem das tabelas acima. Os arqui
 | Matriz de rastreabilidade | ⏳ |
 | Plano de qualidade (ISO/IEC 25010) | ⏳ |
 
-## 🗂️ Padrões do repositório
+## Padrões do repositório
 
 - Nomes de arquivos em minúsculas, sem acento e com hífen.
 - Diagramas numerados na mesma ordem dos módulos do documento.
 - Casos de uso identificados como `UC-001`; requisitos como `RF-001`, `RNF-001`; regras como `RN-001`. O mesmo código aparece no documento, nos diagramas e na matriz de rastreabilidade.
 - Cada alteração relevante vira um commit com mensagem descritiva, para manter o histórico de versões.
 
-## 🛠️ Ferramentas
+## Ferramentas
 
 - [draw.io](https://www.drawio.com/) — diagramas UML
 - Microsoft Word — documentação
