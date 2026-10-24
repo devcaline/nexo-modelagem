@@ -14,11 +14,7 @@ nexo-modelagem/
 │   ├── 01-visao-requisitos-e-regras         # visão, escopo, atores, RF, RNF, RN, histórias e critérios de aceite
 │   ├── 02-especificacao-casos-de-uso        # UC-001 a UC-056, com diagramas, fluxos e regras
 │   ├── 03-modelagem-de-dominio-e-orientacao-a-objetos   # conceitos, responsabilidades, classes, objetos, OO e SOLID
-│   ├── 04-modelo-relacional                 # tabelas, colunas, tipos, restrições e integridade referencial
-│   ├── 05-normalizacao-e-justificativas     # dependências funcionais e verificação de 1FN, 2FN e 3FN
-│   ├── 06-dicionario-de-dados               # descrição de cada atributo, tipo e restrição
-│   ├── 07-mapeamento-objeto-relacional      # correspondência entre classes e tabelas
-│   └── 08-coerencia-classes-der-relacional  # verificação cruzada entre classes, DER e tabelas
+│   └── 04-modelagem-de-persistencia         # DER, modelo relacional, dicionário de dados, mapeamento, normalização e coerência
 └── diagramas/
     ├── contexto/                            # fronteira do sistema e atores externos
     │   └── diagrama-de-contexto.drawio      # arquivo editável
@@ -41,11 +37,7 @@ Os diagramas ficam exportados em `.png` para leitura rápida. Cada pasta tem um 
 | [Visão, requisitos e regras](docs/01-visao-requisitos-e-regras.pdf) | Documento de visão, situação-problema, objetivos, escopo e fronteiras, premissas, stakeholders e atores, glossário, inovação proposta, **76 requisitos funcionais (RF)**, **17 não funcionais (RNF)**, **80 regras de negócio (RN)**, histórias de usuário e critérios de aceite | [.docx](docs/01-visao-requisitos-e-regras.docx) |
 | [Especificação dos casos de uso](docs/02-especificacao-casos-de-uso.pdf) | Padrões de identificação, diagramas por módulo e especificação textual de **56 casos de uso** (UC-001 a UC-056) | [.docx](docs/02-especificacao-casos-de-uso.docx) |
 | [Modelagem de domínio e orientação a objetos](docs/03-modelagem-de-dominio-e-orientacao-a-objetos.pdf) | **28 conceitos do domínio** com origem nos casos de uso, quadro de responsabilidades e colaborações das classes, explicação dos diagramas de classes e de objetos, aplicação dos princípios de OO (abstração, encapsulamento, coesão, acoplamento, herança, polimorfismo e composição) e dos princípios **SOLID** | [.docx](docs/03-modelagem-de-dominio-e-orientacao-a-objetos.docx) |
-| [Modelo relacional](docs/04-modelo-relacional.pdf) | As **25 tabelas**, com colunas, tipos, restrições, cardinalidades, tratamento de relacionamentos N:N, estratégia de herança e integridade referencial | [.docx](docs/04-modelo-relacional.docx) |
-| [Normalização e justificativas](docs/05-normalizacao-e-justificativas.pdf) | Dependências funcionais e verificação de **1FN, 2FN e 3FN** para as 25 tabelas | [.docx](docs/05-normalizacao-e-justificativas.docx) |
-| [Dicionário de dados](docs/06-dicionario-de-dados.pdf) | Descrição de cada atributo, com tipo e restrição | [.docx](docs/06-dicionario-de-dados.docx) |
-| [Mapeamento objeto-relacional](docs/07-mapeamento-objeto-relacional.pdf) | Correspondência entre as classes do diagrama de domínio e as tabelas do banco | [.docx](docs/07-mapeamento-objeto-relacional.docx) |
-| [Coerência entre classes, DER e modelo relacional](docs/08-coerencia-classes-der-relacional.pdf) | Verificação cruzada para garantir que os três artefatos estão consistentes | [.docx](docs/08-coerencia-classes-der-relacional.docx) |
+| [Modelagem de persistência](docs/04-modelagem-de-persistencia.pdf) | DER lógico e as **25 tabelas** do banco, cada uma com colunas, tipos, restrições, valores padrão, domínios, descrição e a origem no diagrama de classes (modelo relacional, dicionário de dados e mapeamento objeto-relacional juntos); cardinalidades, tratamento de N:N e de herança, **13 regras de domínio**, integridade referencial, inativação, normalização até a **3FN** e verificação de coerência entre classes, DER e tabelas | [.docx](docs/04-modelagem-de-persistencia.docx) |
 
 ## Módulos
 
@@ -91,7 +83,7 @@ Mostra as instâncias e os vínculos no instante em que uma consulta é agendada
 
 ## Persistência
 
-A camada de persistência parte do diagrama de classes de domínio e cobre as mesmas 9 áreas, em **25 tabelas**. O DER lógico foi feito no [brModelo Web](https://app.brmodeloweb.com/).
+A camada de persistência parte do diagrama de classes de domínio e cobre as mesmas 9 áreas, em **25 tabelas**. Todo o detalhamento está no documento [Modelagem de persistência](docs/04-modelagem-de-persistencia.pdf). O DER lógico foi feito no [brModelo Web](https://app.brmodeloweb.com/).
 
 | Diagrama | Conteúdo | Imagem | PDF |
 |----------|----------|:------:|:---:|
