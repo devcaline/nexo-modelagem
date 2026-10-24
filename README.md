@@ -15,17 +15,20 @@ nexo-modelagem/
 │   ├── 02-especificacao-casos-de-uso        # UC-001 a UC-056, com diagramas, fluxos e regras
 │   ├── 03-modelagem-de-dominio-e-orientacao-a-objetos   # conceitos, responsabilidades, classes, objetos, OO e SOLID
 │   └── 04-modelagem-de-persistencia         # DER, modelo relacional, dicionário de dados, mapeamento, normalização e coerência
-└── diagramas/
-    ├── contexto/                            # fronteira do sistema e atores externos
-    │   └── diagrama-de-contexto.drawio      # arquivo editável
-    ├── casos-de-uso/                        # um diagrama por módulo (01 a 11)
-    │   └── diagramas-casos-de-uso.drawio    # arquivo editável com os 11 diagramas
-    ├── classes/                             # um diagrama de classes por área (01 a 09)
-    │   └── diagramas-classes.drawio         # arquivo editável com os 9 diagramas
-    ├── objetos/                             # instâncias de um cenário (UC-027)
-    │   └── diagrama-objetos.drawio          # arquivo editável
-    └── der/                                 # DER lógico do banco de dados
-        └── der-logico.pdf                   # versão em PDF
+├── diagramas/
+│   ├── contexto/                            # fronteira do sistema e atores externos
+│   │   └── diagrama-de-contexto.drawio      # arquivo editável
+│   ├── casos-de-uso/                        # um diagrama por módulo (01 a 11)
+│   │   └── diagramas-casos-de-uso.drawio    # arquivo editável com os 11 diagramas
+│   ├── classes/                             # um diagrama de classes por área (01 a 09)
+│   │   └── diagramas-classes.drawio         # arquivo editável com os 9 diagramas
+│   ├── objetos/                             # instâncias de um cenário (UC-027)
+│   │   └── diagrama-objetos.drawio          # arquivo editável
+│   └── der/                                 # DER lógico: modelo completo e uma página por área (01 a 09)
+│       └── der-logico.drawio                # arquivo editável com as 10 páginas
+└── banco/                                   # banco de dados MySQL
+    ├── nexo-ddl-mysql.sql                   # script DDL MySQL 8 com as 29 tabelas
+    └── teste-restricoes.sql                 # dados de teste que conferem as restrições
 ```
 
 Os diagramas ficam exportados em `.png` para leitura rápida. Cada pasta tem um arquivo `.drawio` editável com todos os diagramas daquele tipo, um por página, na mesma ordem das tabelas abaixo.
@@ -37,7 +40,7 @@ Os diagramas ficam exportados em `.png` para leitura rápida. Cada pasta tem um 
 | [Visão, requisitos e regras](docs/01-visao-requisitos-e-regras.pdf) | Documento de visão, situação-problema, objetivos, escopo e fronteiras, premissas, stakeholders e atores, glossário, inovação proposta, **76 requisitos funcionais (RF)**, **17 não funcionais (RNF)**, **80 regras de negócio (RN)**, histórias de usuário e critérios de aceite | [.docx](docs/01-visao-requisitos-e-regras.docx) |
 | [Especificação dos casos de uso](docs/02-especificacao-casos-de-uso.pdf) | Padrões de identificação, diagramas por módulo e especificação textual de **56 casos de uso** (UC-001 a UC-056) | [.docx](docs/02-especificacao-casos-de-uso.docx) |
 | [Modelagem de domínio e orientação a objetos](docs/03-modelagem-de-dominio-e-orientacao-a-objetos.pdf) | **28 conceitos do domínio** com origem nos casos de uso, quadro de responsabilidades e colaborações das classes, explicação dos diagramas de classes e de objetos, aplicação dos princípios de OO (abstração, encapsulamento, coesão, acoplamento, herança, polimorfismo e composição) e dos princípios **SOLID** | [.docx](docs/03-modelagem-de-dominio-e-orientacao-a-objetos.docx) |
-| [Modelagem de persistência](docs/04-modelagem-de-persistencia.pdf) | DER lógico e as **25 tabelas** do banco, cada uma com colunas, tipos, restrições, valores padrão, domínios, descrição e a origem no diagrama de classes (modelo relacional, dicionário de dados e mapeamento objeto-relacional juntos); cardinalidades, tratamento de N:N e de herança, **13 regras de domínio**, integridade referencial, inativação, normalização até a **3FN** e verificação de coerência entre classes, DER e tabelas | [.docx](docs/04-modelagem-de-persistencia.docx) |
+| [Modelagem de persistência](docs/04-modelagem-de-persistencia.pdf) | DER lógico e as **29 tabelas** do banco, cada uma com colunas, tipos, restrições, valores padrão, domínios, descrição e a origem no diagrama de classes (modelo relacional, dicionário de dados e mapeamento objeto-relacional juntos); cardinalidades, tratamento de N:N e de herança, **13 regras de domínio**, integridade referencial, inativação, normalização até a **3FN** e verificação de coerência entre classes, DER e tabelas | [.docx](docs/04-modelagem-de-persistencia.docx) |
 
 ## Módulos
 
@@ -83,11 +86,24 @@ Mostra as instâncias e os vínculos no instante em que uma consulta é agendada
 
 ## Persistência
 
-A camada de persistência parte do diagrama de classes de domínio e cobre as mesmas 9 áreas, em **25 tabelas**. Todo o detalhamento está no documento [Modelagem de persistência](docs/04-modelagem-de-persistencia.pdf). O DER lógico foi feito no [brModelo Web](https://app.brmodeloweb.com/).
+A camada de persistência parte do diagrama de classes de domínio e cobre as mesmas 9 áreas, em **29 tabelas**: 26 vêm das 28 classes (a hierarquia de Cobrança fica em uma tabela única) e 3 são tabelas associativas das associações N para N. Todo o detalhamento está no documento [Modelagem de persistência](docs/04-modelagem-de-persistencia.pdf).
 
-| Diagrama | Conteúdo | Imagem | PDF |
-|----------|----------|:------:|:---:|
-| DER lógico | As 25 tabelas, com chaves primárias e estrangeiras, tipos e cardinalidades | [ver](diagramas/der/der-logico.png) | [abrir](diagramas/der/der-logico.pdf) |
+O script [`banco/nexo-ddl-mysql.sql`](banco/nexo-ddl-mysql.sql) cria o banco com todas as chaves, restrições UNIQUE, NOT NULL, CHECK e chaves estrangeiras, e foi testado em MySQL 8.0. O arquivo [`banco/teste-restricoes.sql`](banco/teste-restricoes.sql) insere dados válidos e confirma que o banco recusa os casos proibidos.
+
+| # | DER lógico | Imagem | Arquivo editável |
+|:-:|------------|:------:|:----------------:|
+| — | Modelo completo (29 tabelas) | [ver](diagramas/der/der-logico.png) | [abrir](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=der-logico.drawio&page-id=der-completo#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem%2Fmain%2Fdiagramas%2Fder%2Fder-logico.drawio>) |
+| 01 | Acesso e permissões | [ver](diagramas/der/01-acesso-e-permissoes.png) | [abrir](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=der-logico.drawio&page-id=der-area-1#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem%2Fmain%2Fdiagramas%2Fder%2Fder-logico.drawio>) |
+| 02 | Pessoas e vínculos | [ver](diagramas/der/02-pessoas-e-vinculos.png) | [abrir](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=der-logico.drawio&page-id=der-area-2#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem%2Fmain%2Fdiagramas%2Fder%2Fder-logico.drawio>) |
+| 03 | Agenda e agendamentos | [ver](diagramas/der/03-agenda-e-agendamentos.png) | [abrir](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=der-logico.drawio&page-id=der-area-3#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem%2Fmain%2Fdiagramas%2Fder%2Fder-logico.drawio>) |
+| 04 | Atendimento e evolução clínica | [ver](diagramas/der/04-atendimento-e-evolucao-clinica.png) | [abrir](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=der-logico.drawio&page-id=der-area-4#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem%2Fmain%2Fdiagramas%2Fder%2Fder-logico.drawio>) |
+| 05 | Recorrência | [ver](diagramas/der/05-recorrencia.png) | [abrir](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=der-logico.drawio&page-id=der-area-5#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem%2Fmain%2Fdiagramas%2Fder%2Fder-logico.drawio>) |
+| 06 | Cobranças e pagamentos | [ver](diagramas/der/06-cobrancas-e-pagamentos.png) | [abrir](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=der-logico.drawio&page-id=der-area-6#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem%2Fmain%2Fdiagramas%2Fder%2Fder-logico.drawio>) |
+| 07 | Lista de espera e encaixes | [ver](diagramas/der/07-lista-de-espera-e-encaixes.png) | [abrir](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=der-logico.drawio&page-id=der-area-7#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem%2Fmain%2Fdiagramas%2Fder%2Fder-logico.drawio>) |
+| 08 | Documentos e compartilhamentos | [ver](diagramas/der/08-documentos-e-compartilhamentos.png) | [abrir](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=der-logico.drawio&page-id=der-area-8#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem%2Fmain%2Fdiagramas%2Fder%2Fder-logico.drawio>) |
+| 09 | Comunicação e auditoria | [ver](diagramas/der/09-comunicacao-e-auditoria.png) | [abrir](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=der-logico.drawio&page-id=der-area-9#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem%2Fmain%2Fdiagramas%2Fder%2Fder-logico.drawio>) |
+
+As 10 páginas também estão em um único [PDF](diagramas/der/der-logico.pdf).
 
 ## Arquivos editáveis dos diagramas
 
@@ -99,12 +115,15 @@ Os arquivos-fonte dos diagramas podem ser abertos no navegador, sem instalar nad
 
 **[🔗 Abrir os 9 diagramas de classes no draw.io (somente visualização)](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=diagramas-classes.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem%2Fmain%2Fdiagramas%2Fclasses%2Fdiagramas-classes.drawio>)**
 
+**[🔗 Abrir o DER lógico no draw.io (somente visualização)](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=der-logico.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem%2Fmain%2Fdiagramas%2Fder%2Fder-logico.drawio>)**
+
 As páginas ficam na barra inferior e seguem a ordem das tabelas acima. Os arquivos também podem ser baixados:
 
 - [`diagramas/contexto/diagrama-de-contexto.drawio`](diagramas/contexto/diagrama-de-contexto.drawio)
 - [`diagramas/casos-de-uso/diagramas-casos-de-uso.drawio`](diagramas/casos-de-uso/diagramas-casos-de-uso.drawio)
 - [`diagramas/classes/diagramas-classes.drawio`](diagramas/classes/diagramas-classes.drawio)
 - [`diagramas/objetos/diagrama-objetos.drawio`](diagramas/objetos/diagrama-objetos.drawio)
+- [`diagramas/der/der-logico.drawio`](diagramas/der/der-logico.drawio)
 
 ## Andamento dos artefatos
 
@@ -126,6 +145,7 @@ As páginas ficam na barra inferior e seguem a ordem das tabelas acima. Os arqui
 | Máquina de estados | ⏳ |
 | Diagramas de pacotes, componentes e implantação | ⏳ |
 | Modelo de persistência (DER) e dicionário de dados | ✅ |
+| Script DDL MySQL (bônus) | ✅ |
 | Matriz de rastreabilidade | ⏳ |
 | Plano de qualidade (ISO/IEC 25010) | ⏳ |
 
@@ -140,4 +160,5 @@ As páginas ficam na barra inferior e seguem a ordem das tabelas acima. Os arqui
 
 - [draw.io](https://www.drawio.com/) — diagramas UML
 - Microsoft Word — documentação
-- [brModelo Web](https://app.brmodeloweb.com/) — DER lógico
+- [draw.io](https://www.drawio.com/) — DER lógico
+- MySQL 8.0 — teste do script DDL
