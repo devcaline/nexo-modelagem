@@ -180,6 +180,16 @@ As páginas ficam na barra inferior e seguem a ordem das tabelas acima. Os arqui
 | Relatório de atuação da equipe | ✅ |
 | Vídeo-pitch | ⏳ |
 
+## 👥 Equipe
+
+- Victória Caroline Bittencourt Costa
+- Aquiles Maciel Amaral
+- Ruan Alberto Santana Cirqueira
+- Carlos Vinicius Dias Souza
+- Lara Cibele Rodrigues de Jesus
+
+A responsabilidade e as contribuições de cada integrante estão no [relatório de atuação da equipe](docs/relatorio-de-atuacao-da-equipe.pdf).
+
 ## Padrões do repositório
 
 - Nomes de arquivos em minúsculas, sem acento e com hífen.
