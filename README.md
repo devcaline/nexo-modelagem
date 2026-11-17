@@ -180,7 +180,7 @@ As páginas ficam na barra inferior e seguem a ordem das tabelas acima. Os arqui
 | Relatório de atuação da equipe | ✅ |
 | Vídeo-pitch | ⏳ |
 
-## 👥 Equipe
+## Equipe
 
 - Victória Caroline Bittencourt Costa
 - Aquiles Maciel Amaral
