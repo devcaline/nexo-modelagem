@@ -14,7 +14,10 @@ nexo-modelagem/
 │   ├── 01-visao-requisitos-e-regras         # visão, escopo, atores, RF, RNF, RN, histórias e critérios de aceite
 │   ├── 02-especificacao-casos-de-uso        # UC-001 a UC-056, com diagramas, fluxos e regras
 │   ├── 03-modelagem-de-dominio-e-orientacao-a-objetos   # conceitos, responsabilidades, classes, objetos, OO e SOLID
-│   └── 04-modelagem-de-persistencia         # DER, modelo relacional, dicionário de dados, mapeamento, normalização e coerência
+│   ├── 04-modelagem-de-persistencia         # DER, modelo relacional, dicionário de dados, mapeamento, normalização e coerência
+│   ├── 05-processo-da-equipe                # autoavaliação (ISO/IEC/IEEE 12207 e ISO/IEC 330xx), lições aprendidas e relatório de atuação
+│   ├── 06-modelagem-comportamental          # sequência, comunicação, atividades, máquina de estados e verificação mensagens × operações
+│   └── relatorio-de-atuacao-da-equipe       # contribuição de cada integrante
 ├── diagramas/
 │   ├── contexto/                            # fronteira do sistema e atores externos
 │   │   └── diagrama-de-contexto.drawio      # arquivo editável
@@ -24,14 +27,19 @@ nexo-modelagem/
 │   │   └── diagramas-classes.drawio         # arquivo editável com os 9 diagramas
 │   ├── objetos/                             # instâncias de um cenário (UC-027)
 │   │   └── diagrama-objetos.drawio          # arquivo editável
-│   └── der/                                 # DER lógico: modelo completo e uma página por área (01 a 09)
-│       └── der-logico.drawio                # arquivo editável com as 10 páginas
+│   ├── der/                                 # DER lógico: modelo completo e uma página por área (01 a 09)
+│   │   └── der-logico.drawio                # arquivo editável com as 10 páginas
+│   └── comportamento/                       # diagramas comportamentais, cada um em .png e .drawio
+│       ├── sequencia/                       # 01 agendar consulta, 02 registrar atendimento, 03 lista de espera e encaixe
+│       ├── comunicacao/                     # os mesmos 3 cenários
+│       ├── atividades/                      # 01 oferta de encaixe
+│       └── estados/                         # 01 agendamento
 └── banco/                                   # banco de dados MySQL
     ├── nexo-ddl-mysql.sql                   # script DDL MySQL 8 com as 29 tabelas
     └── teste-restricoes.sql                 # dados de teste que conferem as restrições
 ```
 
-Os diagramas ficam exportados em `.png` para leitura rápida. Cada pasta tem um arquivo `.drawio` editável com todos os diagramas daquele tipo, um por página, na mesma ordem das tabelas abaixo.
+Os diagramas ficam exportados em `.png` para leitura rápida. Nas pastas de contexto, casos de uso, classes, objetos e DER, um único arquivo `.drawio` reúne todos os diagramas daquele tipo, um por página, na mesma ordem das tabelas abaixo. Na pasta `comportamento`, cada diagrama tem o seu próprio `.drawio`.
 
 ## Documentos
 
@@ -41,6 +49,9 @@ Os diagramas ficam exportados em `.png` para leitura rápida. Cada pasta tem um 
 | [Especificação dos casos de uso](docs/02-especificacao-casos-de-uso.pdf) | Padrões de identificação, diagramas por módulo e especificação textual de **56 casos de uso** (UC-001 a UC-056) | [.docx](docs/02-especificacao-casos-de-uso.docx) |
 | [Modelagem de domínio e orientação a objetos](docs/03-modelagem-de-dominio-e-orientacao-a-objetos.pdf) | **28 conceitos do domínio** com origem nos casos de uso, quadro de responsabilidades e colaborações das classes, explicação dos diagramas de classes e de objetos, aplicação dos princípios de OO (abstração, encapsulamento, coesão, acoplamento, herança, polimorfismo e composição) e dos princípios **SOLID** | [.docx](docs/03-modelagem-de-dominio-e-orientacao-a-objetos.docx) |
 | [Modelagem de persistência](docs/04-modelagem-de-persistencia.pdf) | DER lógico e as **29 tabelas** do banco, cada uma com colunas, tipos, restrições, valores padrão, domínios, descrição e a origem no diagrama de classes (modelo relacional, dicionário de dados e mapeamento objeto-relacional juntos); cardinalidades, tratamento de N:N e de herança, **13 regras de domínio**, integridade referencial, inativação, normalização até a **3FN** e verificação de coerência entre classes, DER e tabelas | [.docx](docs/04-modelagem-de-persistencia.docx) |
+| [Processo da equipe](docs/05-processo-da-equipe.pdf) | Autoavaliação de **8 processos** com base na ISO/IEC/IEEE 12207 e na família ISO/IEC 330xx (atributos PA 1.1, 2.1 e 2.2 e nível de capacidade), **8 lições aprendidas** e relatório de atuação dos integrantes | [.docx](docs/05-processo-da-equipe.docx) |
+| [Modelagem comportamental](docs/06-modelagem-comportamental.pdf) | Diagramas de **sequência** e de **comunicação** de 3 cenários críticos (UC-027, UC-032 e lista de espera e encaixe), diagrama de **atividades** da oferta de encaixe, **máquina de estados** do Agendamento e verificação de que cada mensagem corresponde a uma operação do diagrama de classes | [.docx](docs/06-modelagem-comportamental.docx) |
+| [Relatório de atuação da equipe](docs/relatorio-de-atuacao-da-equipe.pdf) | Divisão das etapas, responsabilidade, contribuições e evidências de cada integrante | [.docx](docs/relatorio-de-atuacao-da-equipe.docx) |
 
 ## Módulos
 
@@ -105,6 +116,21 @@ O script [`banco/nexo-ddl-mysql.sql`](banco/nexo-ddl-mysql.sql) cria o banco com
 
 As 10 páginas também estão em um único [PDF](diagramas/der/der-logico.pdf).
 
+## Diagramas comportamentais
+
+Mostram como os objetos colaboram nos cenários mais críticos da agenda. Os serviços de aplicação coordenam o fluxo, as regras ficam nos objetos do domínio e o repositório só busca e grava. Toda mensagem enviada a um objeto do domínio corresponde a uma operação do diagrama de classes, como mostra o documento [Modelagem comportamental](docs/06-modelagem-comportamental.pdf). Os diagramas foram escritos em PlantUML, e o código fica dentro do `.drawio`: com duplo clique no diagrama, o draw.io abre o código para edição.
+
+| Diagrama | Cenário | Casos de uso | Imagem | Arquivo editável |
+|----------|---------|--------------|:------:|:----------------:|
+| Sequência | Agendar consulta | UC-027, UC-026, UC-055 | [ver](diagramas/comportamento/sequencia/01-agendar-consulta.png) | [abrir](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=01-agendar-consulta.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem%2Fmain%2Fdiagramas%2Fcomportamento%2Fsequencia%2F01-agendar-consulta.drawio>) |
+| Sequência | Registrar atendimento | UC-032, UC-033 | [ver](diagramas/comportamento/sequencia/02-registrar-atendimento.png) | [abrir](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=02-registrar-atendimento.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem%2Fmain%2Fdiagramas%2Fcomportamento%2Fsequencia%2F02-registrar-atendimento.drawio>) |
+| Sequência | Lista de espera e encaixe | UC-053, UC-047, UC-054 | [ver](diagramas/comportamento/sequencia/03-lista-de-espera-e-encaixe.png) | [abrir](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=03-lista-de-espera-e-encaixe.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem%2Fmain%2Fdiagramas%2Fcomportamento%2Fsequencia%2F03-lista-de-espera-e-encaixe.drawio>) |
+| Comunicação | Agendar consulta | UC-027, UC-026, UC-055 | [ver](diagramas/comportamento/comunicacao/01-agendar-consulta.png) | [abrir](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=01-agendar-consulta.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem%2Fmain%2Fdiagramas%2Fcomportamento%2Fcomunicacao%2F01-agendar-consulta.drawio>) |
+| Comunicação | Registrar atendimento | UC-032, UC-033 | [ver](diagramas/comportamento/comunicacao/02-registrar-atendimento.png) | [abrir](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=02-registrar-atendimento.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem%2Fmain%2Fdiagramas%2Fcomportamento%2Fcomunicacao%2F02-registrar-atendimento.drawio>) |
+| Comunicação | Lista de espera e encaixe | UC-053, UC-047, UC-054 | [ver](diagramas/comportamento/comunicacao/03-lista-de-espera-e-encaixe.png) | [abrir](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=03-lista-de-espera-e-encaixe.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem%2Fmain%2Fdiagramas%2Fcomportamento%2Fcomunicacao%2F03-lista-de-espera-e-encaixe.drawio>) |
+| Atividades | Fluxo de oferta de encaixe | UC-053, UC-047, UC-054 | [ver](diagramas/comportamento/atividades/01-oferta-de-encaixe.png) | [abrir](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=01-oferta-de-encaixe.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem%2Fmain%2Fdiagramas%2Fcomportamento%2Fatividades%2F01-oferta-de-encaixe.drawio>) |
+| Máquina de estados | Ciclo de vida do Agendamento | UC-027 a UC-032 | [ver](diagramas/comportamento/estados/01-agendamento.png) | [abrir](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=01-agendamento.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem%2Fmain%2Fdiagramas%2Fcomportamento%2Festados%2F01-agendamento.drawio>) |
+
 ## Arquivos editáveis dos diagramas
 
 Os arquivos-fonte dos diagramas podem ser abertos no navegador, sem instalar nada e sem precisar de conta:
@@ -124,6 +150,7 @@ As páginas ficam na barra inferior e seguem a ordem das tabelas acima. Os arqui
 - [`diagramas/classes/diagramas-classes.drawio`](diagramas/classes/diagramas-classes.drawio)
 - [`diagramas/objetos/diagrama-objetos.drawio`](diagramas/objetos/diagrama-objetos.drawio)
 - [`diagramas/der/der-logico.drawio`](diagramas/der/der-logico.drawio)
+- [`diagramas/comportamento/`](diagramas/comportamento) — um `.drawio` por diagrama comportamental
 
 ## Andamento dos artefatos
 
@@ -139,15 +166,19 @@ As páginas ficam na barra inferior e seguem a ordem das tabelas acima. Os arqui
 | Diagrama de classes de domínio | ✅ |
 | Diagrama de objetos | ✅ |
 | Princípios de OO e SOLID | ✅ |
-| Diagramas de sequência (3 casos críticos) | ⏳ |
-| Diagrama de comunicação | ⏳ |
-| Diagrama de atividades | ⏳ |
-| Máquina de estados | ⏳ |
+| Diagramas de sequência (3 casos críticos) | ✅ |
+| Diagrama de comunicação | ✅ |
+| Diagrama de atividades | ✅ |
+| Máquina de estados | ✅ |
 | Diagramas de pacotes, componentes e implantação | ⏳ |
 | Modelo de persistência (DER) e dicionário de dados | ✅ |
 | Script DDL MySQL (bônus) | ✅ |
 | Matriz de rastreabilidade | ⏳ |
 | Plano de qualidade (ISO/IEC 25010) | ⏳ |
+| Autoavaliação do processo (ISO/IEC/IEEE 12207 e ISO/IEC 330xx) | ✅ |
+| Lições aprendidas | ✅ |
+| Relatório de atuação da equipe | ✅ |
+| Vídeo-pitch | ⏳ |
 
 ## Padrões do repositório
 
@@ -161,4 +192,5 @@ As páginas ficam na barra inferior e seguem a ordem das tabelas acima. Os arqui
 - [draw.io](https://www.drawio.com/) — diagramas UML
 - Microsoft Word — documentação
 - [draw.io](https://www.drawio.com/) — DER lógico
+- [PlantUML](https://plantuml.com/) — diagramas comportamentais
 - MySQL 8.0 — teste do script DDL
