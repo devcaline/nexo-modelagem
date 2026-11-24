@@ -17,6 +17,8 @@ nexo-modelagem/
 │   ├── 04-modelagem-de-persistencia         # DER, modelo relacional, dicionário de dados, mapeamento, normalização e coerência
 │   ├── 05-processo-da-equipe                # autoavaliação (ISO/IEC/IEEE 12207 e ISO/IEC 330xx), lições aprendidas e relatório de atuação
 │   ├── 06-modelagem-comportamental          # sequência, comunicação, atividades, máquina de estados e verificação mensagens × operações
+│   ├── 07-matriz-de-rastreabilidade         # RF × caso de uso × classe × tabela × interação × qualidade × teste conceitual
+│   ├── 08-plano-de-qualidade                # ISO/IEC 25010:2023: características, critérios mensuráveis e avaliação do modelo
 │   └── relatorio-de-atuacao-da-equipe       # contribuição de cada integrante
 ├── diagramas/
 │   ├── contexto/                            # fronteira do sistema e atores externos
@@ -53,6 +55,8 @@ Os diagramas ficam exportados em `.png` para leitura rápida. Nas pastas de cont
 | [Modelagem de persistência](docs/04-modelagem-de-persistencia.pdf) | DER lógico e as **29 tabelas** do banco, cada uma com colunas, tipos, restrições, valores padrão, domínios, descrição e a origem no diagrama de classes (modelo relacional, dicionário de dados e mapeamento objeto-relacional juntos); cardinalidades, tratamento de N:N e de herança, **13 regras de domínio**, integridade referencial, inativação, normalização até a **3FN** e verificação de coerência entre classes, DER e tabelas | [.docx](docs/04-modelagem-de-persistencia.docx) |
 | [Processo da equipe](docs/05-processo-da-equipe.pdf) | Autoavaliação de **8 processos** com base na ISO/IEC/IEEE 12207 e na família ISO/IEC 330xx (atributos PA 1.1, 2.1 e 2.2 e nível de capacidade), **8 lições aprendidas** e relatório de atuação dos integrantes | [.docx](docs/05-processo-da-equipe.docx) |
 | [Modelagem comportamental](docs/06-modelagem-comportamental.pdf) | Diagramas de **sequência** e de **comunicação** de 3 cenários críticos (UC-027, UC-032 e lista de espera e encaixe), diagrama de **atividades** da oferta de encaixe, **máquina de estados** do Agendamento e verificação de que cada mensagem corresponde a uma operação do diagrama de classes | [.docx](docs/06-modelagem-comportamental.docx) |
+| [Matriz de rastreabilidade](docs/07-matriz-de-rastreabilidade.pdf) | Liga os **76 requisitos funcionais** a casos de uso, classes, tabelas, diagramas comportamentais, característica de qualidade e **teste conceitual** (TC-001 a TC-076); rastreabilidade dos critérios de aceite e dos RNF; verificação das regras de consistência entre os artefatos | [.docx](docs/07-matriz-de-rastreabilidade.docx) |
+| [Plano de qualidade](docs/08-plano-de-qualidade.pdf) | As **9 características** da ISO/IEC 25010:2023 ligadas aos requisitos e ao modelo, **16 critérios mensuráveis** com o resultado medido no dossiê, ações de melhoria e qualidade em uso (ISO/IEC 25019) | [.docx](docs/08-plano-de-qualidade.docx) |
 | [Relatório de atuação da equipe](docs/relatorio-de-atuacao-da-equipe.pdf) | Divisão das etapas, responsabilidade, contribuições e evidências de cada integrante | [.docx](docs/relatorio-de-atuacao-da-equipe.docx) |
 
 ## Módulos
@@ -190,8 +194,8 @@ As páginas ficam na barra inferior e seguem a ordem das tabelas acima. Os arqui
 | Diagramas de pacotes, componentes e implantação | ✅ |
 | Modelo de persistência (DER) e dicionário de dados | ✅ |
 | Script DDL MySQL (bônus) | ✅ |
-| Matriz de rastreabilidade | ⏳ |
-| Plano de qualidade (ISO/IEC 25010) | ⏳ |
+| Matriz de rastreabilidade | ✅ |
+| Plano de qualidade (ISO/IEC 25010) | ✅ |
 | Autoavaliação do processo (ISO/IEC/IEEE 12207 e ISO/IEC 330xx) | ✅ |
 | Lições aprendidas | ✅ |
 | Relatório de atuação da equipe | ✅ |
