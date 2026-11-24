@@ -19,6 +19,7 @@ nexo-modelagem/
 │   ├── 06-modelagem-comportamental          # sequência, comunicação, atividades, máquina de estados e verificação mensagens × operações
 │   ├── 07-matriz-de-rastreabilidade         # RF × caso de uso × classe × tabela × interação × qualidade × teste conceitual
 │   ├── 08-plano-de-qualidade                # ISO/IEC 25010:2023: características, critérios mensuráveis e avaliação do modelo
+│   ├── 09-descricao-da-arquitetura          # ISO/IEC/IEEE 42010: partes interessadas, visões, decisões e correspondência
 │   └── relatorio-de-atuacao-da-equipe       # contribuição de cada integrante
 ├── diagramas/
 │   ├── contexto/                            # fronteira do sistema e atores externos
@@ -56,7 +57,8 @@ Os diagramas ficam exportados em `.png` para leitura rápida. Nas pastas de cont
 | [Processo da equipe](docs/05-processo-da-equipe.pdf) | Autoavaliação de **8 processos** com base na ISO/IEC/IEEE 12207 e na família ISO/IEC 330xx (atributos PA 1.1, 2.1 e 2.2 e nível de capacidade), **8 lições aprendidas** e relatório de atuação dos integrantes | [.docx](docs/05-processo-da-equipe.docx) |
 | [Modelagem comportamental](docs/06-modelagem-comportamental.pdf) | Diagramas de **sequência** e de **comunicação** de 3 cenários críticos (UC-027, UC-032 e lista de espera e encaixe), diagrama de **atividades** da oferta de encaixe, **máquina de estados** do Agendamento e verificação de que cada mensagem corresponde a uma operação do diagrama de classes | [.docx](docs/06-modelagem-comportamental.docx) |
 | [Matriz de rastreabilidade](docs/07-matriz-de-rastreabilidade.pdf) | Liga os **76 requisitos funcionais** a casos de uso, classes, tabelas, diagramas comportamentais, característica de qualidade e **teste conceitual** (TC-001 a TC-076); rastreabilidade dos critérios de aceite e dos RNF; verificação das regras de consistência entre os artefatos | [.docx](docs/07-matriz-de-rastreabilidade.docx) |
-| [Plano de qualidade](docs/08-plano-de-qualidade.pdf) | As **9 características** da ISO/IEC 25010:2023 ligadas aos requisitos e ao modelo, **16 critérios mensuráveis** com o resultado medido no dossiê, ações de melhoria e qualidade em uso (ISO/IEC 25019) | [.docx](docs/08-plano-de-qualidade.docx) |
+| [Plano de qualidade](docs/08-plano-de-qualidade.pdf) | As **9 características** da ISO/IEC 25010:2023 ligadas aos requisitos e ao modelo, **17 critérios mensuráveis** medidos antes e depois das correções, ações de melhoria e qualidade em uso (ISO/IEC 25019) | [.docx](docs/08-plano-de-qualidade.docx) |
+| [Descrição da arquitetura](docs/09-descricao-da-arquitetura.pdf) | Arquitetura segundo a ISO/IEC/IEEE 42010: partes interessadas e preocupações, visões lógica, de componentes e de implantação, **18 dependências** entre pacotes sem ciclos, interfaces, **11 decisões arquiteturais** e correspondência entre as visões | [.docx](docs/09-descricao-da-arquitetura.docx) |
 | [Relatório de atuação da equipe](docs/relatorio-de-atuacao-da-equipe.pdf) | Divisão das etapas, responsabilidade, contribuições e evidências de cada integrante | [.docx](docs/relatorio-de-atuacao-da-equipe.docx) |
 
 ## Módulos
@@ -139,7 +141,7 @@ Mostram como os objetos colaboram nos cenários mais críticos da agenda. Os ser
 
 ## Diagramas de arquitetura
 
-Mostram como a solução se organiza: os pacotes de domínio e suas dependências, os componentes (um serviço de aplicação por pacote, mais os adaptadores de infraestrutura), os nós de implantação (servidor de aplicação, servidor de banco MySQL e provedores externos) e o mapeamento que liga cada pacote ao seu componente e ao nó onde roda.
+Mostram como a solução se organiza: os pacotes de domínio e suas dependências, os componentes (um serviço de aplicação por pacote, mais os adaptadores de infraestrutura), os nós de implantação (servidor de aplicação, servidor de banco MySQL e provedores externos) e o mapeamento que liga cada pacote ao seu componente e ao nó onde roda. As 18 dependências entre pacotes aparecem também entre os componentes, na mesma direção. A explicação das visões e das decisões está na [descrição da arquitetura](docs/09-descricao-da-arquitetura.pdf).
 
 | # | Diagrama | Imagem | Arquivo editável |
 |:-:|----------|:------:|:----------------:|
@@ -192,6 +194,7 @@ As páginas ficam na barra inferior e seguem a ordem das tabelas acima. Os arqui
 | Diagrama de atividades | ✅ |
 | Máquina de estados | ✅ |
 | Diagramas de pacotes, componentes e implantação | ✅ |
+| Descrição da arquitetura (ISO/IEC/IEEE 42010) | ✅ |
 | Modelo de persistência (DER) e dicionário de dados | ✅ |
 | Script DDL MySQL (bônus) | ✅ |
 | Matriz de rastreabilidade | ✅ |
