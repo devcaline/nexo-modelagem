@@ -29,11 +29,13 @@ nexo-modelagem/
 │   │   └── diagrama-objetos.drawio          # arquivo editável
 │   ├── der/                                 # DER lógico: modelo completo e uma página por área (01 a 09)
 │   │   └── der-logico.drawio                # arquivo editável com as 10 páginas
-│   └── comportamento/                       # diagramas comportamentais, cada um em .png e .drawio
-│       ├── sequencia/                       # 01 agendar consulta, 02 registrar atendimento, 03 lista de espera e encaixe
-│       ├── comunicacao/                     # os mesmos 3 cenários
-│       ├── atividades/                      # 01 oferta de encaixe
-│       └── estados/                         # 01 agendamento
+│   ├── comportamento/                       # diagramas comportamentais, cada um em .png e .drawio
+│   │   ├── sequencia/                       # 01 agendar consulta, 02 registrar atendimento, 03 lista de espera e encaixe
+│   │   ├── comunicacao/                     # os mesmos 3 cenários
+│   │   ├── atividades/                      # 01 oferta de encaixe
+│   │   └── estados/                         # 01 agendamento
+│   └── arquitetura/                         # pacotes (2 partes), componentes, implantação e mapeamento de coerência
+│       └── diagramas-arquitetura.drawio     # arquivo editável com as 5 páginas
 └── banco/                                   # banco de dados MySQL
     ├── nexo-ddl-mysql.sql                   # script DDL MySQL 8 com as 29 tabelas
     └── teste-restricoes.sql                 # dados de teste que conferem as restrições
@@ -131,6 +133,18 @@ Mostram como os objetos colaboram nos cenários mais críticos da agenda. Os ser
 | Atividades | Fluxo de oferta de encaixe | UC-053, UC-047, UC-054 | [ver](diagramas/comportamento/atividades/01-oferta-de-encaixe.png) | [abrir](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=01-oferta-de-encaixe.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem%2Fmain%2Fdiagramas%2Fcomportamento%2Fatividades%2F01-oferta-de-encaixe.drawio>) |
 | Máquina de estados | Ciclo de vida do Agendamento | UC-027 a UC-032 | [ver](diagramas/comportamento/estados/01-agendamento.png) | [abrir](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=01-agendamento.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem%2Fmain%2Fdiagramas%2Fcomportamento%2Festados%2F01-agendamento.drawio>) |
 
+## Diagramas de arquitetura
+
+Mostram como a solução se organiza: os pacotes de domínio e suas dependências, os componentes (um serviço de aplicação por pacote, mais os adaptadores de infraestrutura), os nós de implantação (servidor de aplicação, servidor de banco MySQL e provedores externos) e o mapeamento que liga cada pacote ao seu componente e ao nó onde roda.
+
+| # | Diagrama | Imagem | Arquivo editável |
+|:-:|----------|:------:|:----------------:|
+| 01 | Pacotes — parte 1 | [ver](diagramas/arquitetura/01-pacotes-parte-1.png) | [abrir](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=diagramas-arquitetura.drawio&page-id=wgs4sKwLdUDLXv6aTNU9#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem%2Fmain%2Fdiagramas%2Farquitetura%2Fdiagramas-arquitetura.drawio>) |
+| 02 | Pacotes — parte 2 | [ver](diagramas/arquitetura/02-pacotes-parte-2.png) | [abrir](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=diagramas-arquitetura.drawio&page-id=_YEj634aV9xC5lHSP4ff#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem%2Fmain%2Fdiagramas%2Farquitetura%2Fdiagramas-arquitetura.drawio>) |
+| 03 | Componentes | [ver](diagramas/arquitetura/03-componentes.png) | [abrir](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=diagramas-arquitetura.drawio&page-id=PMtdNfMH0oO3jZ9Thmms#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem%2Fmain%2Fdiagramas%2Farquitetura%2Fdiagramas-arquitetura.drawio>) |
+| 04 | Implantação | [ver](diagramas/arquitetura/04-implantacao.png) | [abrir](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=diagramas-arquitetura.drawio&page-id=dnBgUHSXYRpFwziZXU5F#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem%2Fmain%2Fdiagramas%2Farquitetura%2Fdiagramas-arquitetura.drawio>) |
+| 05 | Mapeamento e coerência (pacotes → componentes → nós) | [ver](diagramas/arquitetura/05-mapeamento-e-coerencia.png) | [abrir](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=diagramas-arquitetura.drawio&page-id=VxsQf_qQOAcgtD_3zR7Z#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem%2Fmain%2Fdiagramas%2Farquitetura%2Fdiagramas-arquitetura.drawio>) |
+
 ## Arquivos editáveis dos diagramas
 
 Os arquivos-fonte dos diagramas podem ser abertos no navegador, sem instalar nada e sem precisar de conta:
@@ -143,6 +157,8 @@ Os arquivos-fonte dos diagramas podem ser abertos no navegador, sem instalar nad
 
 **[🔗 Abrir o DER lógico no draw.io (somente visualização)](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=der-logico.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem%2Fmain%2Fdiagramas%2Fder%2Fder-logico.drawio>)**
 
+**[🔗 Abrir os 5 diagramas de arquitetura no draw.io (somente visualização)](<https://viewer.diagrams.net/?lightbox=1&highlight=0000ff&layers=1&nav=1&title=diagramas-arquitetura.drawio#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fdevcaline%2Fnexo-modelagem%2Fmain%2Fdiagramas%2Farquitetura%2Fdiagramas-arquitetura.drawio>)**
+
 As páginas ficam na barra inferior e seguem a ordem das tabelas acima. Os arquivos também podem ser baixados:
 
 - [`diagramas/contexto/diagrama-de-contexto.drawio`](diagramas/contexto/diagrama-de-contexto.drawio)
@@ -151,6 +167,7 @@ As páginas ficam na barra inferior e seguem a ordem das tabelas acima. Os arqui
 - [`diagramas/objetos/diagrama-objetos.drawio`](diagramas/objetos/diagrama-objetos.drawio)
 - [`diagramas/der/der-logico.drawio`](diagramas/der/der-logico.drawio)
 - [`diagramas/comportamento/`](diagramas/comportamento) — um `.drawio` por diagrama comportamental
+- [`diagramas/arquitetura/diagramas-arquitetura.drawio`](diagramas/arquitetura/diagramas-arquitetura.drawio)
 
 ## Andamento dos artefatos
 
@@ -170,7 +187,7 @@ As páginas ficam na barra inferior e seguem a ordem das tabelas acima. Os arqui
 | Diagrama de comunicação | ✅ |
 | Diagrama de atividades | ✅ |
 | Máquina de estados | ✅ |
-| Diagramas de pacotes, componentes e implantação | ⏳ |
+| Diagramas de pacotes, componentes e implantação | ✅ |
 | Modelo de persistência (DER) e dicionário de dados | ✅ |
 | Script DDL MySQL (bônus) | ✅ |
 | Matriz de rastreabilidade | ⏳ |
