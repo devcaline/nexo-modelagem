@@ -6,6 +6,8 @@ Este repositório guarda o **Dossiê de Modelagem Orientada a Objetos** do siste
 
 > Trabalho da **Avaliação 3 (AV3)** da disciplina de **Análise Orientada a Objetos** — Ciência da Computação, UNIJORGE.
 
+**Vídeo-pitch:** [assistir no YouTube](https://youtu.be/M-wXh6TrhS8)
+
 ## Estrutura
 
 ```text
@@ -202,7 +204,7 @@ As páginas ficam na barra inferior e seguem a ordem das tabelas acima. Os arqui
 | Autoavaliação do processo (ISO/IEC/IEEE 12207 e ISO/IEC 330xx) | ✅ |
 | Lições aprendidas | ✅ |
 | Relatório de atuação da equipe | ✅ |
-| Vídeo-pitch | ⏳ |
+| [Vídeo-pitch](https://youtu.be/M-wXh6TrhS8) | ✅ |
 
 ## Equipe
 
