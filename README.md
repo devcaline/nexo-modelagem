@@ -206,10 +206,10 @@ As páginas ficam na barra inferior e seguem a ordem das tabelas acima. Os arqui
 
 ## Equipe
 
-- Victória Caroline Bittencourt Costa
 - Aquiles Maciel Amaral
-- Ruan Alberto Santana Cirqueira
 - Carlos Vinicius Dias Souza
+- Ruan Alberto Santana Cirqueira
+- Victória Caroline Bittencourt Costa
 
 A responsabilidade e as contribuições de cada integrante estão no [relatório de atuação da equipe](docs/relatorio-de-atuacao-da-equipe.pdf).
 
